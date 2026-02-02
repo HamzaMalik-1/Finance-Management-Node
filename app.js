@@ -6,6 +6,7 @@ import cors from 'cors'
 import rateLimit from 'express-rate-limit';
 import hpp from 'hpp';
 import errorHandler  from './middlewares/errorHandler.js';
+import setupSwagger from './config/swagger.js';
 // const { InternalServerError } = require('./utils/ErrorHelpers/Errors');
 
 // Middleware
@@ -13,7 +14,7 @@ app.use(express.json({ limit: '5mb' }));
 app.use(helmet());
 app.use(cors());
 app.use(express.urlencoded());
-
+setupSwagger(app);
 
 // import authRouter from './routes/authRoutes.js'
 // import productRouter from './routes/productRoutes.js'

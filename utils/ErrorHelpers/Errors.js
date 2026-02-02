@@ -1,6 +1,6 @@
 import ApiError from './ApiError.js';
 import { StatusCodes, ReasonPhrases } from 'http-status-codes';
-import logger from '../logger'; // Import your new winston logger
+import logger from '../logger.js'; // Import your new winston logger
 
 class BadRequestError extends ApiError {
   constructor(message = ReasonPhrases.BAD_REQUEST, details) {
