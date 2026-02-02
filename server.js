@@ -1,16 +1,12 @@
-// const configuration  = require('./config/config');
 import configuration from "./config/config.js"
 import app from './app.js'
 import { connectDB,sequelize } from './config/db.js';
-// import { User, Category, Product } from './models.js';
+import { User, Role,Modules,RoleHasPermission,UserSettings, Address, UserContact,Currency, Country, City } from './models/index.js';
 // const {User}
 const { PORT } = configuration;
 // Database and server initialization
 (async () => {
   try {
-    // await User.sync()
-    // await Category.sync()
-    // await Product.sync()
     await connectDB();
     const isDev = process.env.NODE_ENV !== 'production';
     await sequelize.sync({ alter: isDev }); 

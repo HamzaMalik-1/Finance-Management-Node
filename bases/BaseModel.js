@@ -1,4 +1,4 @@
-const { Model } = require('sequelize');
+import { Model } from 'sequelize';
 
 class BaseModel extends Model {
   static async paginate(query, options = {}) {
@@ -17,5 +17,4 @@ class BaseModel extends Model {
     };
   }
 }
-
-module.exports = BaseModel;
+export default BaseModel;

@@ -1,7 +1,7 @@
-const { DataTypes } = require('sequelize');
-const BaseModel = require('../bases/BaseModel');
+import { DataTypes } from 'sequelize';
+import BaseModel from '../bases/BaseModel.js';
 
-module.exports = (sequelize) => {
+export default (sequelize) =>{
   class User extends BaseModel {
      async sendOtp() {
       const otp = Math.floor(1000 + Math.random() * 9000);
