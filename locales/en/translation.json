@@ -1,0 +1,11 @@
+{
+  "errors": {
+    "bad_request": "The request is invalid or missing required parameters.",
+    "forbidden": "You do not have permission to access this resource.",
+    "not_found": "The requested resource could not be found.",
+    "internal_server_error": "An unexpected server error occurred. Please try again later.",
+    "unauthorized": "Authentication is required. Please log in.",
+    "already_exists": "This record already exists in our system.",
+    "validation_error": "There was an error validating your data."
+  }
+}
