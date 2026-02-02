@@ -9,6 +9,12 @@ import UserContactModel from './UserContact.js';
 import CurrencyModel from './Currency.js';
 import CountryModel from './Country.js';
 import CityModel from './City.js';
+import AccountModel from './Account.js';
+import AccountTypeModel from './AccountType.js'; 
+import CategoryModel from './Category.js';
+import TransactionModel from './Transaction.js';
+import BudgetModel from './Budget.js';
+import NotificationModel from './Notification.js';
 import { sequelize } from '../config/db.js';
 
 
@@ -23,6 +29,15 @@ const UserContact = UserContactModel(sequelize);
 const Currency = CurrencyModel(sequelize);
 const Country = CountryModel(sequelize);
 const City = CityModel(sequelize);
+
+const Account = AccountModel(sequelize);
+const AccountType = AccountTypeModel(sequelize);
+const Category = CategoryModel(sequelize);
+
+const Transaction = TransactionModel(sequelize);
+const Budget = BudgetModel(sequelize);
+const Notification = NotificationModel(sequelize);
+
 
 Role.hasMany(User, { foreignKey: 'roleId', as: 'users' });
 User.belongsTo(Role, { foreignKey: 'roleId', as: 'role' });
@@ -65,6 +80,61 @@ Address.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
 UserSettings.belongsTo(Currency, { foreignKey: 'baseCurrencyId', as: 'currency' });
 
 
+// 1. User <-> Account (One-to-Many)
+User.hasMany(Account, { foreignKey: 'userId', as: 'accounts' });
+Account.belongsTo(User, { foreignKey: 'userId', as: 'user' });
+
+// 2. AccountType <-> Account (One-to-Many)
+AccountType.hasMany(Account, { foreignKey: 'accountTypeId', as: 'accounts' });
+Account.belongsTo(AccountType, { foreignKey: 'accountTypeId', as: 'accountType' });
+
+// 3. Currency <-> Account (One-to-Many)
+Currency.hasMany(Account, { foreignKey: 'currencyId', as: 'accounts' });
+Account.belongsTo(Currency, { foreignKey: 'currencyId', as: 'currency' });
+
+// 1. One-to-Many: Parent Category to Sub-Categories
+Category.hasMany(Category, { 
+  foreignKey: 'parentId', 
+  as: 'subCategories' 
+});
+
+// 2. Many-to-One: Sub-Category back to its Parent
+Category.belongsTo(Category, { 
+  foreignKey: 'parentId', 
+  as: 'parent' 
+});
+
+
+// 1. Basic Links
+User.hasMany(Transaction, { foreignKey: 'userId', as: 'transactions' });
+Transaction.belongsTo(User, { foreignKey: 'userId' });
+
+Account.hasMany(Transaction, { foreignKey: 'accountId', as: 'accountTransactions' });
+Transaction.belongsTo(Account, { foreignKey: 'accountId', as: 'sourceAccount' });
+
+// 2. Special Link for Transfers
+Account.hasMany(Transaction, { foreignKey: 'toAccountId', as: 'receivedTransfers' });
+Transaction.belongsTo(Account, { foreignKey: 'toAccountId', as: 'destinationAccount' });
+
+Category.hasMany(Transaction, { foreignKey: 'categoryId', as: 'transactions' });
+Transaction.belongsTo(Category, { foreignKey: 'categoryId', as: 'category' });
+
+// 1. User <-> Budget
+User.hasMany(Budget, { foreignKey: 'userId', as: 'budgets' });
+Budget.belongsTo(User, { foreignKey: 'userId' });
+
+// 2. Category <-> Budget
+Category.hasMany(Budget, { foreignKey: 'categoryId', as: 'budgets' });
+Budget.belongsTo(Category, { foreignKey: 'categoryId', as: 'category' });
+
+// 3. Currency <-> Budget
+Currency.hasMany(Budget, { foreignKey: 'currencyId', as: 'budgets' });
+Budget.belongsTo(Currency, { foreignKey: 'currencyId', as: 'currency' });
+
+// --- Notification Relationship ---
+User.hasMany(Notification, { foreignKey: 'userId', as: 'notifications', onDelete: 'CASCADE' });
+Notification.belongsTo(User, { foreignKey: 'userId' });
+
 export {
   User,
   Role,
@@ -74,5 +144,10 @@ export {
   Address,
   UserAddress,
   UserContact,
-  Currency, Country, City
+  Currency, Country, City,
+  Account, AccountType,
+  Category,
+  Transaction,
+  Budget,
+  Notification
 };

@@ -1,7 +1,7 @@
 import configuration from "./config/config.js"
 import app from './app.js'
 import { connectDB,sequelize } from './config/db.js';
-import { User, Role,Modules,RoleHasPermission,UserSettings, Address, UserContact,Currency, Country, City } from './models/index.js';
+import { User, Role,Modules,RoleHasPermission,UserSettings, Address, UserContact,Currency, Country, City,Account, AccountType,Category,Transaction,Budget,Notification } from './models/index.js';
 // const {User}
 const { PORT } = configuration;
 // Database and server initialization
