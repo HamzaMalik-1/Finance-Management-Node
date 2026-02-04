@@ -58,10 +58,11 @@ export default (sequelize) =>{
       type:DataTypes.STRING,
       validate:{isEmail:true}
     },
-    // role_id: {
-    //   type: DataTypes.INTEGER,
-    //   allowNull: true,
-    // }
+    role_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references:{model:"roles",key:"id"}
+    }
   }, {
     sequelize,
     modelName: 'User',

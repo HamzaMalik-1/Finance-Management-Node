@@ -5,7 +5,6 @@ export default (sequelize) => {
     class Roles extends BaseModel {}
 
     Roles.init({
-        // 1. Attributes
         id: {
             type: DataTypes.INTEGER, 
             primaryKey: true,
@@ -14,20 +13,22 @@ export default (sequelize) => {
         },
         name: {
             type: DataTypes.STRING,
-            unique: true,
             allowNull: false
-        },
-        isDeleted:{
-            type:DataTypes.BOOLEAN,
-            defaultValue:false
         }
+        // ❌ Removed isDeleted: paranoid mode uses 'deleted_at' instead
     }, {
-
         sequelize,      
         modelName: 'Role',
         tableName: 'roles',
-        underscored: true,
+        underscored: true, // This turns 'deletedAt' into 'deleted_at'
+        paranoid: true,    // This enables the soft-delete functionality
         timestamps: true,
+        indexes: [
+            {
+                unique: true,
+                fields: ['name', 'deleted_at'] // ✅ Matches the underscored column name
+            }
+        ]
     });
 
     return Roles; 

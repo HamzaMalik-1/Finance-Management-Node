@@ -6,6 +6,12 @@
     "internal_server_error": "An unexpected server error occurred. Please try again later.",
     "unauthorized": "Authentication is required. Please log in.",
     "already_exists": "This record already exists in our system.",
-    "validation_error": "There was an error validating your data."
+    "validation_error": "There was an error validating your data.",
+    "object_error":"Data is not of object type"
+  },
+  "specific_errors":{
+    "module_not_array":"Module is not array",
+    "role_and_permission_creation_error":"Role and Permission Error"
   }
+  
 }

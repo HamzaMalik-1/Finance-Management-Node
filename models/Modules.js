@@ -17,20 +17,23 @@ export default (sequelize)=>{
         {
             type:DataTypes.STRING,
             allowNull:false,
-            unique:true,
+            
         },
-        isDeleted:{
-            type:DataTypes.BOOLEAN,
-            defaultValue:false,
-
-        }
+       
     },{
 
         sequelize,
         modelName:"Modules",
         tableName:"modules",
         underscored:true,
-        timestamps:true
+        timestamps:true,
+        paranoid: true,    
+        indexes:[
+            {
+                unique:true,
+                fields:['name','deleted_at']
+            }
+        ]
     }
 
 )

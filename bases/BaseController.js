@@ -1,156 +1,192 @@
-const { StatusCodes } = require("http-status-codes");
-const { where } = require("sequelize");
-const { AlreadyExist, BadRequestError, NotFoundError } = require("../utils/ErrorHelpers/Errors");
-const ApiError = require("../utils/ErrorHelpers/ApiError");
+import { StatusCodes } from "http-status-codes";
+import {
+  AlreadyExist,
+  BadRequestError,
+  NotFoundError,
+  InternalServerError,
+} from "../utils/ErrorHelpers/Errors.js";
+import ApiError from "../utils/ErrorHelpers/ApiError.js";
+import logger from "../utils/logger.js";
+import { where } from "sequelize";
 
 class BaseController {
-   constructor(model) {
+  constructor(model) {
     this.model = model;
     if (!this.model) {
+      logger.error("BaseController initialization failed: Model not provided");
       throw new Error("Model must be provided to BaseController");
     }
   }
 
- 
- requireFields(body, fields) {
-  const missing = fields.filter(field => !body[field]);
-  if (missing.length > 0) {
-    console.log(missing)
-    throw new ApiError(400, `Missing required fields: ${missing.join(', ')}`);
-  }
-}
-
-bodyExist(body) {
-  if (!body || Object.keys(body).length === 0) {
-    throw new BadRequestError("Body Not Found");
-  }
-}
-
-paramsExist(params, requiredKeys = []) {
-  if (!params || Object.keys(params).length === 0) {
-    throw new BadRequestError("No route parameters supplied");
-  }
-
-  for (const key of requiredKeys) {
-    if (!params[key] || String(params[key]).trim() === "") {
-      throw new BadRequestError(`Missing parameter: ${key}`);
+  requireFields(body, fields) {
+    const missing = fields.filter((field) => !body[field]);
+    if (missing.length > 0) {
+      logger.warn(`Missing fields: ${missing.join(", ")}`);
+      // Pass the missing fields array into the 'details' parameter
+      throw new BadRequestError("errors.validation_error", {
+        missingFields: missing,
+      });
     }
   }
-}
 
+  // bases/BaseController.js
 
+  validatePassword(password) {
+    // Regex: Min 8 chars, at least 1 letter and 1 number
+    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
-fileExist(file) {
-  if (!file) {
-    throw new BadRequestError("File not found");
-  }
-}
-
-
-async alreadyExist(filter, message = `${this.model.name} already exists`) {
-  const record = await this.model.findOne({ where: filter });
-
-  if (record) {
-    throw new AlreadyExist(message);
+    if (!passwordRegex.test(password)) {
+      throw new BadRequestError("errors.validation_error", {
+        hint: "Password must be at least 8 characters long and include both letters and numbers.",
+      });
+    }
   }
 
-  return null; // or undefined, since nothing exists
-}
-
-
-async create(data) {
-  return await this.model.create(data);
-}
-
-async delete(filter) {
-  const record = await this.model.findOne({ where: filter });
-
-  if (!record) {
-    throw new NotFoundError("Record not found to delete");
+  bodyExist(body) {
+    if (!body || Object.keys(body).length === 0) {
+      throw new BadRequestError("errors.bad_request");
+    }
   }
 
-  await record.destroy(); // deletes the instance
+  paramsExist(params, requiredKeys = []) {
+    if (!params || Object.keys(params).length === 0) {
+      throw new BadRequestError("errors.bad_request");
+    }
 
-  return record; // return deleted instance
-}
-
-
-async findOne(filter, message = "Record not found",include = []) {
-  const record = await this.model.findOne({
-    where: filter,
-    include,
-  });
-
-  if (!record) {
-    throw new NotFoundError(message);
+    for (const key of requiredKeys) {
+      if (!params[key] || String(params[key]).trim() === "") {
+        throw new BadRequestError(`Missing parameter: ${key}`);
+      }
+    }
   }
 
-  return record;
-}
-
-
-async findOrCreate(filter,data)
-{
-  let record = await this.model.findOne({ where: filter });
-
-  if(!record)
-  {
-    record =await this.model.create(data)
+  fileExist(file) {
+    if (!file) {
+      throw new BadRequestError("errors.validation_error");
+    }
   }
-  return record
-}
 
-async getAllOrPaginated(filter = {}, options = {}) {
-  const {
-    paginate = false,
-    page = 1,
-    limit = 10,
-    order = [['createdAt', 'DESC']],
-    include = null, // optional include
-  } = options;
+  async alreadyExist(filter, message = "errors.already_exists") {
+    const record = await this.model.findOne({ where: filter });
+    if (record) {
+      throw new AlreadyExist(message);
+    }
+    return null;
+  }
 
-  if (paginate) {
-    const offset = (page - 1) * limit;
+  async create(data) {
+    return await this.model.create(data);
+  }
 
-    const { rows, count } = await this.model.findAndCountAll({
+  async delete(filter) {
+    const record = await this.model.findOne({ where: filter });
+    if (!record) {
+      throw new NotFoundError("errors.not_found");
+    }
+    await record.destroy();
+    return record;
+  }
+
+  // bases/BaseController.js
+  async softDelete(filter) {
+    const record = await this.model.findOne({ where: filter });
+
+    if (!record) {
+      throw new NotFoundError("errors.not_found");
+    }
+    await record.destroy();
+
+    return record;
+  }
+
+  async findOne(filter, message = "errors.not_found", include = []) {
+    const record = await this.model.findOne({
       where: filter,
-      order,
-      limit,
-      offset,
-      include, // optional
+      include,
     });
 
-    return {
-      data: rows,
-      total: count,
-      page: parseInt(page),
-      totalPages: Math.ceil(count / limit),
-    };
+    if (!record) {
+      throw new NotFoundError(message);
+    }
+    return record;
   }
 
-  const data = await this.model.findAll({ where: filter, order, include });
-  return { data };
+  async findOrCreate(filter, data) {
+    let record = await this.model.findOne({ where: filter });
+    if (!record) {
+      record = await this.model.create(data);
+    }
+    return record;
+  }
+
+  async getAllOrPaginated(filter = {}, options = {}) {
+    const {
+      paginate = false,
+      page = 1,
+      limit = 10,
+      order = [["createdAt", "DESC"]],
+      include = null,
+    } = options;
+
+    if (paginate) {
+      const offset = (page - 1) * limit;
+      const { rows, count } = await this.model.findAndCountAll({
+        where: filter,
+        order,
+        limit,
+        offset,
+        include,
+      });
+
+      return {
+        data: rows,
+        total: count,
+        page: parseInt(page),
+        totalPages: Math.ceil(count / limit),
+      };
+    }
+
+    const data = await this.model.findAll({ where: filter, order, include });
+    return { data };
+  }
+
+  isObject(value) {
+    const check =
+      value !== null && typeof value === "object" && !Array.isArray(value);
+    if (!check) {
+      throw new BadRequestError("errors.object_error");
+    }
+    return;
+  }
+
+
+  async bulkCreate(dataArray, options = {}) {
+    if (!Array.isArray(dataArray) || dataArray.length === 0) {
+      return [];
+    }
+    return await this.model.bulkCreate(dataArray, options);
+  }
+
+  async updateBulk(dataArray, identifier = 'id', options = {}) {
+  const results = [];
+  
+  // We use for...of to handle the async/await properly
+  for (const item of dataArray) {
+    const filter = { [identifier]: item[identifier] };
+    
+    // update() returns [rowsAffected, [updatedRows]]
+    const updated = await this.model.update(item, {
+      where: filter,
+      ...options // Pass transaction: t here
+    });
+    
+    results.push(updated);
+  }
+  
+  return results;
+}
 }
 
 
-// async Create(req,requireField)
-// {
-//   this.model.bodyExist(req.body)
 
-//    this.model.requireFields(req.body, requireField);
-
-// }
-
-
-  // async checkExistsOrThrow(query, message = "Record not found") {
-  //   const record = await this.model.findOne({ where: query });
-  //   if (!record) {
-  //     throw new ApiError(404, message);
-  //   }
-  //   return record;
-  // }
-
-  // ... other methods like sendResponse, sendError, etc.
-}
-
-module.exports = BaseController; 
+export default BaseController;

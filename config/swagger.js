@@ -1,6 +1,5 @@
 import swaggerJSDoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-
 import config from './config.js';
 
 const options = {
@@ -16,7 +15,7 @@ const options = {
     },
     servers: [
       {
-        url: config.baseUrl, // Adjust to your PORT
+        url: `${config.baseUrl}/api/v1`, // ✅ Added /api/v1 so "Try it out" works correctly
         description: 'Development Server',
       },
     ],
@@ -30,8 +29,8 @@ const options = {
       },
     },
   },
-  // Path to the API docs (where your routes are defined)
-  apis: ['./routes/*.js'], 
+  // ✅ Path updated to find your versioned routes and controllers
+  apis: ['./routes/v1/*.js', './controllers/v1/*.js'], 
 };
 
 const swaggerSpec = swaggerJSDoc(options);

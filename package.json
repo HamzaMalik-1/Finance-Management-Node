@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+"test": "jest",
+  "test:watch": "jest --watchAll",
     "start": "node server.js"
   },
   "keywords": [],
@@ -38,6 +39,10 @@
     "winston": "^3.19.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "babel-jest": "^30.2.0",
+    "jest": "^30.2.0",
     "sequelize-cli": "^6.6.3"
   }
 }

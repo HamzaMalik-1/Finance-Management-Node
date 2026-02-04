@@ -1,5 +1,5 @@
 import express from 'express'
-import { signup,sendotp,verifyotp,login } from '../controllers/authController.js'
+import { signup,sendotp,verifyotp,login } from '../../controllers/v1/authController.js'
 
 
 const router = express.Router()

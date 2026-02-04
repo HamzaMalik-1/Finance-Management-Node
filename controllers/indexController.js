@@ -1,4 +1,4 @@
-const BaseController = require('../bases/BaseController')
+import BaseController from  '../bases/BaseController.js'
 
-module.exports = { BaseController };
+export { BaseController };
 

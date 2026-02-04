@@ -1,0 +1,520 @@
+2026-02-03 22:55:23:5523 [31merror[39m: [31mSyntaxError: Expected double-quoted property name in JSON at position 34 (line 3 column 1) [39m
+[31mStack: SyntaxError: Expected double-quoted property name in JSON at position 34 (line 3 column 1)[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at parse (E:\Self Project\Finance-Management-System\node-server\node_modules\body-parser\lib\types\json.js:77:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\body-parser\lib\read.js:123:18[39m
+[31m    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)[39m
+[31m    at invokeCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\raw-body\index.js:238:16)[39m
+[31m    at done (E:\Self Project\Finance-Management-System\node-server\node_modules\raw-body\index.js:227:7)[39m
+[31m    at IncomingMessage.onEnd (E:\Self Project\Finance-Management-System\node-server\node_modules\raw-body\index.js:287:7)[39m
+[31m    at IncomingMessage.emit (node:events:518:28)[39m
+[31m    at endReadableNT (node:internal/streams/readable:1698:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-03 23:04:21:421 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:04:21:421 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:04:21:421 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:07:35:735 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:07:35:735 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:07:35:735 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:12:51:1251 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:12:51:1251 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:12:51:1251 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:13:14:1314 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:13:14:1314 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:13:14:1314 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:13:19:1319 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:13:19:1319 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:13:19:1319 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:13:27:1327 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:13:27:1327 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:13:27:1327 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:15:29:1529 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:15:29:1529 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:15:29:1529 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:17:44:1744 [33mwarn[39m: [33mMissing fields: username, password[39m
+2026-02-03 23:17:44:1744 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:17:44:1744 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:25:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:20:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:18:16:1816 [33mwarn[39m: [33mBadRequest: Password should be at least 6 characters.[39m
+2026-02-03 23:18:16:1816 [31merror[39m: [31mBadRequestError: Password should be at least 6 characters. [39m
+[31mStack: BadRequestError: Password should be at least 6 characters.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:34:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-03 23:18:22:1822 [33mwarn[39m: [33mBadRequest: Email address "test@gamil.com" is invalid[39m
+2026-02-03 23:18:22:1822 [31merror[39m: [31mBadRequestError: Email address "test@gamil.com" is invalid [39m
+[31mStack: BadRequestError: Email address "test@gamil.com" is invalid[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:34:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-03 23:19:06:196 [33mwarn[39m: [33mBadRequest: Email address "test@gmail.com" is invalid[39m
+2026-02-03 23:19:06:196 [31merror[39m: [31mBadRequestError: Email address "test@gmail.com" is invalid [39m
+[31mStack: BadRequestError: Email address "test@gmail.com" is invalid[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:34:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-03 23:20:09:209 [33mwarn[39m: [33mBadRequest: email rate limit exceeded[39m
+2026-02-03 23:20:09:209 [31merror[39m: [31mBadRequestError: email rate limit exceeded [39m
+[31mStack: BadRequestError: email rate limit exceeded[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:34:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-03 23:24:48:2448 [31merror[39m: [31mReferenceError: user is not defined [39m
+[31mStack: ReferenceError: user is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:45:5[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-03 23:28:25:2825 [33mwarn[39m: [33mBadRequest: User already registered[39m
+2026-02-03 23:28:25:2825 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:35:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-03 23:32:36:3236 [32minfo[39m: [32mResponse Sent: [201] User registered successfully[39m
+2026-02-03 23:33:46:3346 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:33:46:3346 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.validatePassword (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:36:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:24:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:34:02:342 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-03 23:34:02:342 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.validatePassword (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:36:11)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:24:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-03 23:34:13:3413 [32minfo[39m: [32mResponse Sent: [201] User registered successfully[39m
+2026-02-03 23:57:31:5731 [33mwarn[39m: [33mBadRequest: User already exists[39m
+2026-02-03 23:59:39:5939 [33mwarn[39m: [33mBadRequest: User already exists[39m
+2026-02-03 23:59:46:5946 [33mwarn[39m: [33mBadRequest: User already exists[39m
+2026-02-04 00:07:44:744 [31merror[39m: [31mSyntaxError: Expected double-quoted property name in JSON at position 62 (line 4 column 1) [39m
+[31mStack: SyntaxError: Expected double-quoted property name in JSON at position 62 (line 4 column 1)[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at parse (E:\Self Project\Finance-Management-System\node-server\node_modules\body-parser\lib\types\json.js:77:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\body-parser\lib\read.js:123:18[39m
+[31m    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)[39m
+[31m    at invokeCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\raw-body\index.js:238:16)[39m
+[31m    at done (E:\Self Project\Finance-Management-System\node-server\node_modules\raw-body\index.js:227:7)[39m
+[31m    at IncomingMessage.onEnd (E:\Self Project\Finance-Management-System\node-server\node_modules\raw-body\index.js:287:7)[39m
+[31m    at IncomingMessage.emit (node:events:518:28)[39m
+[31m    at endReadableNT (node:internal/streams/readable:1698:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-04 00:08:26:826 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-04 00:12:24:1224 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-04 00:13:29:1329 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-04 00:58:59:5859 [33mwarn[39m: [33mBadRequest: errors.bad_request[39m
+2026-02-04 00:58:59:5859 [31merror[39m: [31mBadRequestError: errors.bad_request [39m
+[31mStack: BadRequestError: errors.bad_request[39m
+[31m    at BaseController.bodyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:44:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:8:18[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-04 01:02:32:232 [31merror[39m: [31mSequelizeValidationError: notNull Violation: Role.name cannot be null [39m
+[31mStack: SequelizeValidationError: notNull Violation: Role.name cannot be null[39m
+[31m    at InstanceValidator._validate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:50:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async InstanceValidator._validateAndRunHooks (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:60:7)[39m
+[31m    at async InstanceValidator.validate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:54:12)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2426:7)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:75:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:13:15[39m
+2026-02-04 01:04:02:42 [32minfo[39m: [32mResponse Sent: [201] Role Created Successfully[39m
+2026-02-04 01:04:28:428 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:75:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:13:15[39m
+2026-02-04 01:04:35:435 [32minfo[39m: [32mResponse Sent: [201] Role Created Successfully[39m
+2026-02-04 01:25:45:2545 [33mwarn[39m: [33mBadRequest: errors.bad_request[39m
+2026-02-04 01:25:45:2545 [31merror[39m: [31mBadRequestError: errors.bad_request [39m
+[31mStack: BadRequestError: errors.bad_request[39m
+[31m    at BaseController.bodyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:47:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:41:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+2026-02-04 01:26:46:2646 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 01:33:21:3321 [31merror[39m: [31mSequelizeDatabaseError: column "deleted_at" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:35:51:3551 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:37:01:371 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:37:03:373 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:37:08:378 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 01:37:16:3716 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:39:06:396 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:39:07:397 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:39:11:3911 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 01:39:16:3916 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Roles.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Role.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:35:15[39m
+2026-02-04 01:41:44:4144 [32minfo[39m: [32mResponse Sent: [201] Role Created Successfully[39m
+2026-02-04 01:42:01:421 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 01:42:49:4249 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 01:44:00:440 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 01:45:36:4536 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 01:45:41:4541 [32minfo[39m: [32mResponse Sent: [201] Role Created Successfully[39m
+2026-02-04 01:46:08:468 [32minfo[39m: [32mResponse Sent: [200] Role Deleted[39m
+2026-02-04 09:49:04:494 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 09:49:05:495 [32minfo[39m: [32mModule : Id: 1 , Name: Dashboard[39m
+2026-02-04 09:49:05:495 [32minfo[39m: [32mModule : Id: 2 , Name: Accounts[39m
+2026-02-04 09:49:06:496 [32minfo[39m: [32mModule : Id: 3 , Name: Transactions[39m
+2026-02-04 09:49:06:496 [32minfo[39m: [32mModule : Id: 4 , Name: Categories[39m
+2026-02-04 09:49:07:497 [32minfo[39m: [32mModule : Id: 5 , Name: Budgets[39m
+2026-02-04 09:49:07:497 [32minfo[39m: [32mModule : Id: 6 , Name: Reports[39m
+2026-02-04 09:49:08:498 [32minfo[39m: [32mModule : Id: 7 , Name: Transfers[39m
+2026-02-04 09:49:09:499 [32minfo[39m: [32mModule : Id: 8 , Name: Settings[39m
+2026-02-04 09:49:10:4910 [32minfo[39m: [32mModule : Id: 9 , Name: User Management[39m
+2026-02-04 09:49:11:4911 [32minfo[39m: [32mModule : Id: 10 , Name: Audit Logs[39m
+2026-02-04 09:49:11:4911 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:02:39:239 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:02:44:244 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:07:13:713 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:07:17:717 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:07:59:759 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:08:04:84 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:12:09:129 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:12:14:1214 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:14:50:1450 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:14:54:1454 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:16:38:1638 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:16:43:1643 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:52:27:5227 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:65:32[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:49:18[39m
+2026-02-04 10:53:34:5334 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:53:38:5338 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:53:47:5347 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:65:32[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:49:18[39m
+2026-02-04 10:54:26:5426 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:54:30:5430 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:54:41:5441 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:54:46:5446 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:54:51:5451 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:65:32[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:49:18[39m
+2026-02-04 10:55:07:557 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:55:14:5514 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:55:20:5520 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:65:32[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:49:18[39m
+2026-02-04 10:55:33:5533 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:55:38:5538 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:55:43:5543 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:65:32[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:49:18[39m
+2026-02-04 10:58:17:5817 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:58:22:5822 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:58:26:5826 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 10:58:34:5834 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:65:32[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:49:18[39m
+2026-02-04 10:59:52:5952 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 10:59:57:5957 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 11:00:07:07 [32minfo[39m: [32mResponse Sent: [201] Role and Permissions Created Successfully[39m
+2026-02-04 11:00:32:032 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:00:36:036 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 11:00:41:041 [32minfo[39m: [32mResponse Sent: [201] Role and Permissions Created Successfully[39m
+2026-02-04 11:01:00:10 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:01:04:14 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 11:01:13:113 [32minfo[39m: [32mResponse Sent: [201] Role and Permissions Created Successfully[39m
+2026-02-04 11:02:15:215 [32minfo[39m: [32mResponse Sent: [201] Role and Permissions Created Successfully[39m
+2026-02-04 11:03:36:336 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:03:41:341 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:03:47:347 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 11:03:55:355 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:04:02:42 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:04:07:47 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 11:04:35:435 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:04:39:439 [32minfo[39m: [32mModules created successfully[39m
+2026-02-04 11:05:11:511 [32minfo[39m: [32mCreating Modules[39m
+2026-02-04 11:21:51:2151 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:98:5[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:84:3[39m
+2026-02-04 11:24:42:2442 [31merror[39m: [31mTypeError: RoleHasPermission.bodyExist is not a function [39m
+[31mStack: TypeError: RoleHasPermission.bodyExist is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:82:21[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-04 11:27:41:2741 [31merror[39m: [31mError: WHERE parameter "role_id" has invalid "undefined" value [39m
+[31mStack: Error: WHERE parameter "role_id" has invalid "undefined" value[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1746:13)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+[31m    at PostgresQueryGenerator.whereItemsQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1735:35)[39m
+[31m    at PostgresQueryGenerator.getWhereConditions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2078:19)[39m
+[31m    at PostgresQueryGenerator.deleteQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query-generator.js:269:28)[39m
+[31m    at PostgresQueryInterface.bulkDelete (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:59)[39m
+[31m    at RoleHasPermission.destroy (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1838:42)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:90:5[39m
+2026-02-04 11:28:19:2819 [31merror[39m: [31mError: WHERE parameter "role_id" has invalid "undefined" value [39m
+[31mStack: Error: WHERE parameter "role_id" has invalid "undefined" value[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1746:13)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+[31m    at PostgresQueryGenerator.whereItemsQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1735:35)[39m
+[31m    at PostgresQueryGenerator.getWhereConditions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2078:19)[39m
+[31m    at PostgresQueryGenerator.deleteQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query-generator.js:269:28)[39m
+[31m    at PostgresQueryInterface.bulkDelete (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:403:59)[39m
+[31m    at RoleHasPermission.destroy (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1838:42)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:90:5[39m
+2026-02-04 11:28:59:2859 [31merror[39m: [31mSequelizeDatabaseError: null value in column "role_id" of relation "role_has_permissions" violates not-null constraint [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.bulkInsert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:346:21)[39m
+[31m    at async recursiveBulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1697:25)[39m
+[31m    at async RoleHasPermission.bulkCreate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1786:12)[39m
+[31m    at async BaseController.bulkCreate (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:167:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:102:5[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:88:3[39m
+2026-02-04 11:30:11:3011 [32minfo[39m: [32mResponse Sent: [200] Permissions synced successfully[39m
+2026-02-04 11:30:33:3033 [32minfo[39m: [32mResponse Sent: [200] Permissions synced successfully[39m
