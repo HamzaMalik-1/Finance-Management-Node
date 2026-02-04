@@ -89,10 +89,7 @@ export const updateRoleAndPermission = asyncHandler(async (req, res) => {
   const { modules } = req.body;
   console.log("role_id", role_id);
   await sequelize.transaction(async (t) => {
-    await RoleHasPermission.destroy({
-      where: { role_id },
-      transaction: t,
-    });
+    await RoleHasPermissionController.deleteAll({ role_id }, { transaction: t });
     const permissionsData = modules.map((mod) => ({
       roleId: role_id,
       moduleId: mod.module_id,

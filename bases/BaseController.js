@@ -78,7 +78,7 @@ class BaseController {
     return await this.model.create(data);
   }
 
-  async delete(filter) {
+  async delete(filter,options={}) {
     const record = await this.model.findOne({ where: filter });
     if (!record) {
       throw new NotFoundError("errors.not_found");
@@ -86,6 +86,13 @@ class BaseController {
     await record.destroy();
     return record;
   }
+
+  async deleteAll(filter, options = {}) {
+  return await this.model.destroy({
+    where: filter,
+    ...options // This allows passing { transaction: t }
+  });
+}
 
   // bases/BaseController.js
   async softDelete(filter) {

@@ -415,3 +415,9 @@
 [31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:102:5[39m
 [31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
 [31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/roleController.js:88:3[39m
+2026-02-04 11:33:45:3345 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-04 11:34:38:3438 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-04 11:35:50:3550 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-04 11:35:54:3554 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-04 11:36:11:3611 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-04 11:36:21:3621 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
