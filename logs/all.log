@@ -524,3 +524,4 @@
 2026-02-04 11:35:54:3554 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
 2026-02-04 11:36:11:3611 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
 2026-02-04 11:36:21:3621 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-04 11:36:28:3628 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
