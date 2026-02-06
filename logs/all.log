@@ -525,3 +525,426 @@
 2026-02-04 11:36:11:3611 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
 2026-02-04 11:36:21:3621 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
 2026-02-04 11:36:28:3628 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-04 11:39:34:3934 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-05 23:07:32:732 [31merror[39m: [31m❌ Error seeding modules: column "deleted_at" does not exist[39m
+2026-02-05 23:28:52:2852 [32minfo[39m: [32mCountry Pakistan is created[39m
+2026-02-05 23:28:53:2853 [32minfo[39m: [32mCountry United Arab Emirates is created[39m
+2026-02-05 23:28:54:2854 [32minfo[39m: [32mCountry Saudi Arabia is created[39m
+2026-02-05 23:28:55:2855 [32minfo[39m: [32mCountry United States is created[39m
+2026-02-05 23:28:56:2856 [32minfo[39m: [32mCountry United Kingdom is created[39m
+2026-02-05 23:28:56:2856 [32minfo[39m: [32mCountry Germany is created[39m
+2026-02-05 23:28:57:2857 [32minfo[39m: [32mCountry Canada is created[39m
+2026-02-05 23:28:58:2858 [32minfo[39m: [32mCountry Australia is created[39m
+2026-02-05 23:42:23:4223 [32minfo[39m: [32mCity Karachi is created successfully[39m
+2026-02-05 23:42:24:4224 [32minfo[39m: [32mCity Lahore is created successfully[39m
+2026-02-05 23:42:25:4225 [32minfo[39m: [32mCity Islamabad is created successfully[39m
+2026-02-05 23:42:26:4226 [32minfo[39m: [32mCity Faisalabad is created successfully[39m
+2026-02-05 23:42:27:4227 [32minfo[39m: [32mCity Multan is created successfully[39m
+2026-02-05 23:42:28:4228 [32minfo[39m: [32mCity Dubai is created successfully[39m
+2026-02-05 23:42:28:4228 [32minfo[39m: [32mCity Abu Dhabi is created successfully[39m
+2026-02-05 23:42:29:4229 [32minfo[39m: [32mCity Sharjah is created successfully[39m
+2026-02-05 23:42:30:4230 [32minfo[39m: [32mCity Riyadh is created successfully[39m
+2026-02-05 23:42:31:4231 [32minfo[39m: [32mCity Jeddah is created successfully[39m
+2026-02-05 23:42:32:4232 [32minfo[39m: [32mCity Dammam is created successfully[39m
+2026-02-05 23:42:33:4233 [32minfo[39m: [32mCity New York is created successfully[39m
+2026-02-05 23:42:34:4234 [32minfo[39m: [32mCity San Francisco is created successfully[39m
+2026-02-05 23:42:34:4234 [32minfo[39m: [32mCity Chicago is created successfully[39m
+2026-02-05 23:42:35:4235 [32minfo[39m: [32mCity London is created successfully[39m
+2026-02-05 23:42:36:4236 [32minfo[39m: [32mCity Manchester is created successfully[39m
+2026-02-05 23:42:37:4237 [32minfo[39m: [32mCity Birmingham is created successfully[39m
+2026-02-05 23:45:16:4516 [32minfo[39m: [32mCity Karachi is updated[39m
+2026-02-05 23:45:16:4516 [32minfo[39m: [32mCity Lahore is updated[39m
+2026-02-05 23:45:16:4516 [32minfo[39m: [32mCity Islamabad is updated[39m
+2026-02-05 23:45:17:4517 [32minfo[39m: [32mCity Faisalabad is updated[39m
+2026-02-05 23:45:17:4517 [32minfo[39m: [32mCity Multan is updated[39m
+2026-02-05 23:45:18:4518 [32minfo[39m: [32mCity Dubai is updated[39m
+2026-02-05 23:45:18:4518 [32minfo[39m: [32mCity Abu Dhabi is updated[39m
+2026-02-05 23:45:19:4519 [32minfo[39m: [32mCity Sharjah is updated[39m
+2026-02-05 23:45:19:4519 [32minfo[39m: [32mCity Riyadh is updated[39m
+2026-02-05 23:45:20:4520 [32minfo[39m: [32mCity Jeddah is updated[39m
+2026-02-05 23:45:20:4520 [32minfo[39m: [32mCity Dammam is updated[39m
+2026-02-05 23:45:20:4520 [32minfo[39m: [32mCity New York is updated[39m
+2026-02-05 23:45:21:4521 [32minfo[39m: [32mCity San Francisco is updated[39m
+2026-02-05 23:45:21:4521 [32minfo[39m: [32mCity Chicago is updated[39m
+2026-02-05 23:45:22:4522 [32minfo[39m: [32mCity London is updated[39m
+2026-02-05 23:45:22:4522 [32minfo[39m: [32mCity Manchester is updated[39m
+2026-02-05 23:45:23:4523 [32minfo[39m: [32mCity Birmingham is updated[39m
+2026-02-05 23:47:15:4715 [32minfo[39m: [32mCity Karachi is updated[39m
+2026-02-05 23:47:16:4716 [32minfo[39m: [32mCity Lahore is updated[39m
+2026-02-05 23:47:17:4717 [32minfo[39m: [32mCity Islamabad is updated[39m
+2026-02-05 23:47:17:4717 [32minfo[39m: [32mCity Faisalabad is updated[39m
+2026-02-05 23:47:18:4718 [32minfo[39m: [32mCity Multan is updated[39m
+2026-02-05 23:47:18:4718 [32minfo[39m: [32mCity Dubai is updated[39m
+2026-02-05 23:47:19:4719 [32minfo[39m: [32mCity Abu Dhabi is updated[39m
+2026-02-05 23:47:19:4719 [32minfo[39m: [32mCity Sharjah is updated[39m
+2026-02-05 23:47:20:4720 [32minfo[39m: [32mCity Riyadh is updated[39m
+2026-02-05 23:47:20:4720 [32minfo[39m: [32mCity Jeddah is updated[39m
+2026-02-05 23:47:21:4721 [32minfo[39m: [32mCity Dammam is updated[39m
+2026-02-05 23:53:40:5340 [32minfo[39m: [32mCity Karachi is updated[39m
+2026-02-05 23:53:41:5341 [32minfo[39m: [32mCity Lahore is updated[39m
+2026-02-05 23:53:41:5341 [32minfo[39m: [32mCity Islamabad is updated[39m
+2026-02-05 23:53:42:5342 [32minfo[39m: [32mCity Faisalabad is updated[39m
+2026-02-05 23:53:42:5342 [32minfo[39m: [32mCity Multan is updated[39m
+2026-02-05 23:53:42:5342 [32minfo[39m: [32mCity Dubai is updated[39m
+2026-02-05 23:53:43:5343 [32minfo[39m: [32mCity Abu Dhabi is updated[39m
+2026-02-05 23:53:43:5343 [32minfo[39m: [32mCity Sharjah is updated[39m
+2026-02-05 23:53:44:5344 [32minfo[39m: [32mCity Riyadh is updated[39m
+2026-02-05 23:53:44:5344 [32minfo[39m: [32mCity Jeddah is updated[39m
+2026-02-05 23:53:44:5344 [32minfo[39m: [32mCity Dammam is updated[39m
+2026-02-05 23:53:45:5345 [32minfo[39m: [32mCity New York is updated[39m
+2026-02-05 23:53:45:5345 [32minfo[39m: [32mCity San Francisco is updated[39m
+2026-02-05 23:53:46:5346 [32minfo[39m: [32mCity Chicago is updated[39m
+2026-02-05 23:53:46:5346 [32minfo[39m: [32mCity London is updated[39m
+2026-02-05 23:53:47:5347 [32minfo[39m: [32mCity Manchester is updated[39m
+2026-02-05 23:53:47:5347 [32minfo[39m: [32mCity Birmingham is updated[39m
+2026-02-05 23:59:28:5928 [32minfo[39m: [32mCity Karachi is updated[39m
+2026-02-05 23:59:29:5929 [32minfo[39m: [32mCity Lahore is updated[39m
+2026-02-05 23:59:29:5929 [32minfo[39m: [32mCity Islamabad is updated[39m
+2026-02-05 23:59:29:5929 [32minfo[39m: [32mCity Faisalabad is updated[39m
+2026-02-05 23:59:30:5930 [32minfo[39m: [32mCity Multan is updated[39m
+2026-02-05 23:59:31:5931 [32minfo[39m: [32mCity Dubai is updated[39m
+2026-02-05 23:59:32:5932 [32minfo[39m: [32mCity Abu Dhabi is updated[39m
+2026-02-05 23:59:32:5932 [32minfo[39m: [32mCity Sharjah is updated[39m
+2026-02-05 23:59:33:5933 [32minfo[39m: [32mCity Riyadh is updated[39m
+2026-02-05 23:59:34:5934 [32minfo[39m: [32mCity Jeddah is updated[39m
+2026-02-05 23:59:34:5934 [32minfo[39m: [32mCity Dammam is updated[39m
+2026-02-05 23:59:35:5935 [32minfo[39m: [32mCity New York is updated[39m
+2026-02-05 23:59:36:5936 [32minfo[39m: [32mCity San Francisco is updated[39m
+2026-02-05 23:59:36:5936 [32minfo[39m: [32mCity Chicago is updated[39m
+2026-02-05 23:59:37:5937 [32minfo[39m: [32mCity London is updated[39m
+2026-02-05 23:59:38:5938 [32minfo[39m: [32mCity Manchester is updated[39m
+2026-02-05 23:59:38:5938 [32minfo[39m: [32mCity Birmingham is updated[39m
+2026-02-06 01:18:03:183 [32minfo[39m: [32mCity Karachi is updated[39m
+2026-02-06 01:18:03:183 [32minfo[39m: [32mCity Lahore is updated[39m
+2026-02-06 01:18:03:183 [32minfo[39m: [32mCity Islamabad is updated[39m
+2026-02-06 01:18:04:184 [32minfo[39m: [32mCity Faisalabad is updated[39m
+2026-02-06 01:18:04:184 [32minfo[39m: [32mCity Multan is updated[39m
+2026-02-06 01:18:05:185 [32minfo[39m: [32mCity Dubai is updated[39m
+2026-02-06 01:18:05:185 [32minfo[39m: [32mCity Abu Dhabi is updated[39m
+2026-02-06 01:23:50:2350 [32minfo[39m: [32mCity Karachi is updated[39m
+2026-02-06 01:23:51:2351 [32minfo[39m: [32mCity Lahore is updated[39m
+2026-02-06 01:23:51:2351 [32minfo[39m: [32mCity Islamabad is updated[39m
+2026-02-06 01:23:52:2352 [32minfo[39m: [32mCity Faisalabad is updated[39m
+2026-02-06 01:23:52:2352 [32minfo[39m: [32mCity Multan is updated[39m
+2026-02-06 01:23:53:2353 [32minfo[39m: [32mCity Dubai is updated[39m
+2026-02-06 01:23:53:2353 [32minfo[39m: [32mCity Abu Dhabi is updated[39m
+2026-02-06 01:23:53:2353 [32minfo[39m: [32mCity Sharjah is updated[39m
+2026-02-06 01:23:54:2354 [32minfo[39m: [32mCity Riyadh is updated[39m
+2026-02-06 01:23:54:2354 [32minfo[39m: [32mCity Jeddah is updated[39m
+2026-02-06 01:23:55:2355 [32minfo[39m: [32mCity Dammam is updated[39m
+2026-02-06 01:23:55:2355 [32minfo[39m: [32mCity New York is updated[39m
+2026-02-06 01:23:56:2356 [32minfo[39m: [32mCity San Francisco is updated[39m
+2026-02-06 01:23:56:2356 [32minfo[39m: [32mCity Chicago is updated[39m
+2026-02-06 01:23:56:2356 [32minfo[39m: [32mCity London is updated[39m
+2026-02-06 01:23:57:2357 [32minfo[39m: [32mCity Manchester is updated[39m
+2026-02-06 01:23:57:2357 [32minfo[39m: [32mCity Birmingham is updated[39m
+2026-02-06 01:24:05:245 [31merror[39m: [31mTypeError: Cannot read properties of undefined (reading 'filter') [39m
+[31mStack: TypeError: Cannot read properties of undefined (reading 'filter')[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:22:28)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:10:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-06 01:26:30:2630 [32minfo[39m: [32mCity Karachi is updated[39m
+2026-02-06 01:26:31:2631 [32minfo[39m: [32mCity Lahore is updated[39m
+2026-02-06 01:26:31:2631 [32minfo[39m: [32mCity Islamabad is updated[39m
+2026-02-06 01:26:32:2632 [32minfo[39m: [32mCity Faisalabad is updated[39m
+2026-02-06 01:26:32:2632 [32minfo[39m: [32mCity Multan is updated[39m
+2026-02-06 01:26:33:2633 [32minfo[39m: [32mCity Dubai is updated[39m
+2026-02-06 01:26:33:2633 [32minfo[39m: [32mCity Abu Dhabi is updated[39m
+2026-02-06 01:26:33:2633 [32minfo[39m: [32mCity Sharjah is updated[39m
+2026-02-06 01:26:34:2634 [32minfo[39m: [32mCity Riyadh is updated[39m
+2026-02-06 01:26:34:2634 [32minfo[39m: [32mCity Jeddah is updated[39m
+2026-02-06 01:26:35:2635 [32minfo[39m: [32mCity Dammam is updated[39m
+2026-02-06 01:26:35:2635 [32minfo[39m: [32mCity New York is updated[39m
+2026-02-06 01:26:35:2635 [32minfo[39m: [32mCity San Francisco is updated[39m
+2026-02-06 01:26:36:2636 [32minfo[39m: [32mCity Chicago is updated[39m
+2026-02-06 01:26:36:2636 [32minfo[39m: [32mCity London is updated[39m
+2026-02-06 01:26:37:2637 [32minfo[39m: [32mCity Manchester is updated[39m
+2026-02-06 01:26:37:2637 [32minfo[39m: [32mCity Birmingham is updated[39m
+2026-02-06 01:27:50:2750 [31merror[39m: [31mSequelizeValidationError: notNull Violation: User.id cannot be null [39m
+[31mStack: SequelizeValidationError: notNull Violation: User.id cannot be null[39m
+[31m    at InstanceValidator._validate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:50:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async InstanceValidator._validateAndRunHooks (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:60:7)[39m
+[31m    at async InstanceValidator.validate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:54:12)[39m
+[31m    at async User.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2426:7)[39m
+[31m    at async User.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:17:18[39m
+2026-02-06 01:29:40:2940 [31merror[39m: [31mReferenceError: sendResponse is not defined [39m
+[31mStack: ReferenceError: sendResponse is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:18:3[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-06 01:30:09:309 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-06 01:30:09:309 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:16:3[39m
+2026-02-06 01:30:46:3046 [31merror[39m: [31mReferenceError: StatusCodes is not defined [39m
+[31mStack: ReferenceError: StatusCodes is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:19:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-06 01:31:19:3119 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-06 01:31:19:3119 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:17:3[39m
+2026-02-06 01:31:51:3151 [32minfo[39m: [32mResponse Sent: [201] User created successfully[39m
+2026-02-06 01:32:11:3211 [33mwarn[39m: [33mMissing fields: username[39m
+2026-02-06 01:32:11:3211 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-06 01:32:11:3211 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:26:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:12:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-06 01:33:20:3320 [33mwarn[39m: [33mMissing fields: username[39m
+2026-02-06 01:33:20:3320 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-06 01:33:20:3320 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:26:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:12:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-06 01:34:18:3418 [33mwarn[39m: [33mMissing fields: username[39m
+2026-02-06 01:34:18:3418 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-06 01:34:18:3418 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:26:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:12:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-06 01:37:40:3740 [33mwarn[39m: [33mMissing fields: username[39m
+2026-02-06 01:37:40:3740 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-06 01:37:40:3740 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:26:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:12:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-06 01:37:45:3745 [33mwarn[39m: [33mMissing fields: username, displayName[39m
+2026-02-06 01:37:45:3745 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-06 01:37:45:3745 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:26:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:12:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-06 01:37:49:3749 [33mwarn[39m: [33mMissing fields: displayName[39m
+2026-02-06 01:37:49:3749 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-06 01:37:49:3749 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:26:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:12:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-06 01:37:54:3754 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-06 01:37:54:3754 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:17:3[39m
+2026-02-06 17:25:09:259 [33mwarn[39m: [33mBadRequest: User already exists[39m
+2026-02-06 19:45:23:4523 [32minfo[39m: [32mResponse Sent: [201] Role and Permissions Created Successfully[39m
+2026-02-06 19:45:42:4542 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-06 19:45:42:4542 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:17:3[39m
+2026-02-06 19:46:33:4633 [31merror[39m: [31mSequelizeForeignKeyConstraintError: insert or update on table "users" violates foreign key constraint "users_role_id_fkey" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async User.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async User.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:19:18[39m
+2026-02-06 19:51:07:517 [32minfo[39m: [32mResponse Sent: [201] User created successfully[39m
+2026-02-06 20:07:23:723 [31merror[39m: [31mReferenceError: UserSettings is not defined [39m
+[31mStack: ReferenceError: UserSettings is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:29:9[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-06 20:11:52:1152 [31merror[39m: [31mSequelizeDatabaseError: column "deleted_at" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async UserSettings.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async UserSettings.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Promise.all (index 1)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:74:48[39m
+2026-02-06 20:14:25:1425 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-07 00:59:25:5925 [32minfo[39m: [32mResponse Sent: [201] Contact added[39m
+2026-02-07 00:59:37:5937 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-07 00:59:37:5937 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:33:5[39m
+2026-02-07 00:59:42:5942 [32minfo[39m: [32mResponse Sent: [201] Contact added[39m
+2026-02-07 01:03:25:325 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-07 01:03:25:325 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:33:5[39m
+2026-02-07 01:03:32:332 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type integer: "6aafa248-c2d6-4b7e-a3b7-baf0d8cd236d" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async UserContact.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async UserContact.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async BaseController.findOne (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:110:20)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:35:23[39m
+2026-02-07 01:04:42:442 [32minfo[39m: [32mResponse Sent: [201] Contact added[39m
+2026-02-07 01:04:46:446 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-07 01:04:46:446 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:33:5[39m
+2026-02-07 01:05:14:514 [33mwarn[39m: [33mNotFound: errors.not_found[39m
+2026-02-07 01:05:14:514 [31merror[39m: [31mNotFoundError: errors.not_found [39m
+[31mStack: NotFoundError: errors.not_found[39m
+[31m    at BaseController.findOne (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:116:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:35:23[39m
+2026-02-07 01:06:47:647 [32minfo[39m: [32mResponse Sent: [201] Contact added[39m
+2026-02-07 01:06:51:651 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-07 01:06:51:651 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:72:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:33:5[39m
+2026-02-07 01:08:27:827 [31merror[39m: [31mReferenceError: sequelize is not defined [39m
+[31mStack: ReferenceError: sequelize is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:54:20[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:291:5)[39m
+2026-02-07 01:09:14:914 [31merror[39m: [31mSequelizeValidationError: notNull Violation: Address.addressLine cannot be null [39m
+[31mStack: SequelizeValidationError: notNull Violation: Address.addressLine cannot be null[39m
+[31m    at InstanceValidator._validate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:50:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async InstanceValidator._validateAndRunHooks (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:60:7)[39m
+[31m    at async InstanceValidator.validate (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\instance-validator.js:54:12)[39m
+[31m    at async Address.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2426:7)[39m
+[31m    at async Address.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:57:28[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:55:20[39m
+2026-02-07 01:12:01:121 [31merror[39m: [31mSequelizeForeignKeyConstraintError: insert or update on table "addresses" violates foreign key constraint "addresses_country_id_fkey" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Address.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Address.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:57:28[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:55:20[39m
+2026-02-07 01:15:07:157 [31merror[39m: [31mSequelizeDatabaseError: column Country.countryId does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Country.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Country.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async BaseController.findOne (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:110:20)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:59:7[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/userController.js:57:20[39m
+2026-02-07 01:16:49:1649 [32minfo[39m: [32mResponse Sent: [201] Address linked successfully[39m
+2026-02-07 01:16:56:1656 [32minfo[39m: [32mResponse Sent: [201] Address linked successfully[39m
+2026-02-07 01:26:17:2617 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:26:18:2618 [32minfo[39m: [32m✅ Created Category: Salary (income)[39m
+2026-02-07 01:26:19:2619 [32minfo[39m: [32m✅ Created Category: Freelance (income)[39m
+2026-02-07 01:26:19:2619 [32minfo[39m: [32m✅ Created Category: Investment (income)[39m
+2026-02-07 01:26:20:2620 [32minfo[39m: [32m✅ Created Category: Food & Dining (expense)[39m
+2026-02-07 01:26:21:2621 [32minfo[39m: [32m✅ Created Category: Transportation (expense)[39m
+2026-02-07 01:26:22:2622 [32minfo[39m: [32m✅ Created Category: Housing (expense)[39m
+2026-02-07 01:26:23:2623 [32minfo[39m: [32m✅ Created Category: Utilities (expense)[39m
+2026-02-07 01:26:24:2624 [32minfo[39m: [32m✅ Created Category: Groceries (expense)[39m
+2026-02-07 01:26:24:2624 [32minfo[39m: [32m✅ Created Category: Restaurants (expense)[39m
+2026-02-07 01:26:25:2625 [32minfo[39m: [32m✅ Created Category: Fuel (expense)[39m
+2026-02-07 01:26:26:2626 [32minfo[39m: [32m✅ Created Category: Rent (expense)[39m
+2026-02-07 01:26:27:2627 [32minfo[39m: [32m✅ Created Category: Electricity Bill (expense)[39m
+2026-02-07 01:30:45:3045 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:31:01:311 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:31:01:311 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:31:02:312 [32minfo[39m: [32m✅ Created Currency: Pakistani Rupee (PKR)[39m
+2026-02-07 01:31:03:313 [32minfo[39m: [32m✅ Created Currency: US Dollar (USD)[39m
+2026-02-07 01:31:04:314 [32minfo[39m: [32m✅ Created Currency: Saudi Riyal (SAR)[39m
+2026-02-07 01:31:05:315 [32minfo[39m: [32m✅ Created Currency: UAE Dirham (AED)[39m
+2026-02-07 01:31:05:315 [32minfo[39m: [32m✅ Created Currency: British Pound (GBP)[39m
+2026-02-07 01:31:06:316 [32minfo[39m: [32m✅ Created Currency: Euro (EUR)[39m
+2026-02-07 01:31:07:317 [32minfo[39m: [32m✅ Created Currency: Canadian Dollar (CAD)[39m
+2026-02-07 01:31:08:318 [32minfo[39m: [32m✅ Created Currency: Australian Dollar (AUD)[39m

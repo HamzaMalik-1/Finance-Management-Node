@@ -22,7 +22,8 @@ export default (sequelize) => {
     sequelize,
     modelName: "UserSettings",
     tableName: "user_settings",
-    underscored: true
+    underscored: true,
+    paranoid:true
   });
   return UserSettings;
 };

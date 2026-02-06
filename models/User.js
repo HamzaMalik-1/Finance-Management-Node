@@ -69,6 +69,7 @@ export default (sequelize) =>{
     tableName: 'users',
     underscored: true,
     timestamps: true,
+    paranoid:true,
   });
 
   return User;

@@ -118,6 +118,14 @@ class BaseController {
     return record;
   }
 
+   async find(filter, include = []) {
+    const record = await this.model.findOne({
+      where: filter,
+      include,
+    });
+    return record;
+  }
+
   async findOrCreate(filter, data) {
     let record = await this.model.findOne({ where: filter });
     if (!record) {
@@ -192,6 +200,15 @@ class BaseController {
   
   return results;
 }
+ isValidEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const isValid= emailRegex.test(email);
+  if(!isValid)
+  {
+    throw new BadRequestError("errors.invalid_email_format");
+  }
+  return
+};
 }
 
 

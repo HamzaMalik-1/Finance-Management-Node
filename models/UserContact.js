@@ -21,7 +21,8 @@ export default (sequelize) => {
     sequelize,
     modelName: "UserContact",
     tableName: "user_contacts",
-    underscored: true
+    underscored: true,
+    paranoid:true
   });
   return UserContact;
 };

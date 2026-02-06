@@ -22,6 +22,7 @@ setupSwagger(app);
 // import productRouter from './routes/productRoutes.js'
 import v1AuthRouter from "./routes/v1/authRoutes.js";
 import v1RoleRouter from "./routes/v1/roleRoutes.js";
+import v1UserRouter from "./routes/v1/userRoutes.js";
 // app.get('/', async (req, res, next) => {
 //   try {
 //     throw new InternalServerError("Something went wrong on the server.");
@@ -47,6 +48,7 @@ app.use(hpp());
 // app.use('/api/product',productRouter)
 app.use("/api/v1/auth", v1AuthRouter);
 app.use("/api/v1/role", v1RoleRouter);
+app.use("/api/v1/user", v1UserRouter);
 // Routes
 app.get("/", (req, res) => {
   res.send("Server is working!");
