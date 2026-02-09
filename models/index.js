@@ -15,6 +15,8 @@ import CategoryModel from './Category.js';
 import TransactionModel from './Transaction.js';
 import BudgetModel from './Budget.js';
 import NotificationModel from './Notification.js';
+import ContactModel from './Contact.js';
+import DebtModel from './Debt.js';
 import { sequelize } from '../config/db.js';
 
 
@@ -37,6 +39,8 @@ const Category = CategoryModel(sequelize);
 const Transaction = TransactionModel(sequelize);
 const Budget = BudgetModel(sequelize);
 const Notification = NotificationModel(sequelize);
+const Contact = ContactModel(sequelize)
+const Debt =DebtModel(sequelize)
 
 
 Role.hasMany(User, { foreignKey: 'roleId', as: 'users' });
@@ -135,6 +139,25 @@ Budget.belongsTo(Currency, { foreignKey: 'currencyId', as: 'currency' });
 User.hasMany(Notification, { foreignKey: 'userId', as: 'notifications', onDelete: 'CASCADE' });
 Notification.belongsTo(User, { foreignKey: 'userId' });
 
+// --- Contact Relationships ---
+User.hasMany(Contact, { foreignKey: 'userId', as: 'userContacts' });
+Contact.belongsTo(User, { foreignKey: 'userId' });
+
+// --- Debt Relationships ---
+User.hasMany(Debt, { foreignKey: 'userId', as: 'debts' });
+Debt.belongsTo(User, { foreignKey: 'userId' });
+
+Contact.hasMany(Debt, { foreignKey: 'contactId', as: 'debts' });
+Debt.belongsTo(Contact, { foreignKey: 'contact', as: 'contactPerson' });
+
+Account.hasMany(Debt, { foreignKey: 'accountId', as: 'debts' });
+Debt.belongsTo(Account, { foreignKey: 'accountId', as: 'account' });
+
+// --- Linking Transactions to Debts ---
+// This allows you to see all repayments for a specific loan
+Debt.hasMany(Transaction, { foreignKey: 'debtId', as: 'repayments' });
+Transaction.belongsTo(Debt, { foreignKey: 'debtId', as: 'debt' });
+
 export {
   User,
   Role,
@@ -149,5 +172,7 @@ export {
   Category,
   Transaction,
   Budget,
-  Notification
+  Notification,
+  Contact,
+  Debt
 };

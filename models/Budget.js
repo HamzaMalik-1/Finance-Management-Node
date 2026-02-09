@@ -64,7 +64,8 @@ export default (sequelize) => {
     modelName: "Budget",
     tableName: "budgets",
     underscored: true,
-    timestamps: true
+    timestamps: true,
+    paranoid:true
   });
 
   return Budget;

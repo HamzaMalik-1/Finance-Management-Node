@@ -74,8 +74,8 @@ class BaseController {
     return null;
   }
 
-  async create(data) {
-    return await this.model.create(data);
+  async create(data,option={}) {
+    return await this.model.create(data,option);
   }
 
   async delete(filter,options={}) {
@@ -141,6 +141,7 @@ class BaseController {
       limit = 10,
       order = [["createdAt", "DESC"]],
       include = null,
+      attributes=null
     } = options;
 
     if (paginate) {
@@ -151,6 +152,7 @@ class BaseController {
         limit,
         offset,
         include,
+        attributes
       });
 
       return {
@@ -161,7 +163,7 @@ class BaseController {
       };
     }
 
-    const data = await this.model.findAll({ where: filter, order, include });
+    const data = await this.model.findAll({ where: filter, order, include,attributes });
     return { data };
   }
 

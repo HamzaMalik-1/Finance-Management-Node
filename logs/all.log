@@ -948,3 +948,174 @@
 2026-02-07 01:31:06:316 [32minfo[39m: [32m✅ Created Currency: Euro (EUR)[39m
 2026-02-07 01:31:07:317 [32minfo[39m: [32m✅ Created Currency: Canadian Dollar (CAD)[39m
 2026-02-07 01:31:08:318 [32minfo[39m: [32m✅ Created Currency: Australian Dollar (AUD)[39m
+2026-02-07 01:40:24:4024 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:41:01:411 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:41:01:411 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:41:08:418 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 01:41:08:418 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 01:41:09:419 [32minfo[39m: [32m✅ Created Account Type: Bank Account[39m
+2026-02-07 01:41:10:4110 [32minfo[39m: [32m✅ Created Account Type: Credit Card[39m
+2026-02-07 01:41:11:4111 [32minfo[39m: [32m✅ Created Account Type: Cash Wallet[39m
+2026-02-07 01:41:12:4112 [32minfo[39m: [32m✅ Created Account Type: Mobile Wallet[39m
+2026-02-07 01:41:12:4112 [32minfo[39m: [32m✅ Created Account Type: Investment Account[39m
+2026-02-07 01:41:13:4113 [32minfo[39m: [32m✅ Created Account Type: Loan/Debt[39m
+2026-02-07 01:45:04:454 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:45:08:458 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:45:08:458 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:45:12:4512 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 01:45:12:4512 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 01:45:16:4516 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-07 01:47:02:472 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:47:08:478 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:47:08:478 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:47:13:4713 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 01:47:13:4713 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 01:47:16:4716 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-07 01:47:52:4752 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:47:57:4757 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:47:57:4757 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:48:00:480 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 01:48:00:480 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 01:48:02:482 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-07 01:51:00:510 [31merror[39m: [31mSequelizeDatabaseError: column "deleted_at" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Account.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Account.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:30:24[39m
+2026-02-07 01:52:09:529 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:52:15:5215 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:52:15:5215 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:52:18:5218 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 01:52:18:5218 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 01:52:21:5221 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-07 01:52:28:5228 [32minfo[39m: [32mResponse Sent: [201] Account created successfully[39m
+2026-02-07 01:54:12:5412 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:54:17:5417 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:54:17:5417 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:54:21:5421 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 01:54:21:5421 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 01:54:23:5423 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-07 01:54:38:5438 [31merror[39m: [31mSequelizeEagerLoadingError: AccountType is associated to Account using an alias. You must use the 'as' keyword to specify the alias within your include statement. [39m
+[31mStack: SequelizeEagerLoadingError: AccountType is associated to Account using an alias. You must use the 'as' keyword to specify the alias within your include statement.[39m
+[31m    at Account._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:576:13)[39m
+[31m    at Account._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Account._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Account.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async BaseController.getAllOrPaginated (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:164:18)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:42:22[39m
+2026-02-07 01:57:04:574 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 01:57:11:5711 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 01:57:11:5711 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 01:57:15:5715 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 01:57:15:5715 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 01:57:19:5719 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-07 01:57:21:5721 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:04:45:445 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:07:00:70 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:07:02:72 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:07:04:74 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:07:13:713 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:09:28:928 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:10:00:100 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-07 02:45:14:4514 [31merror[39m: [31mSequelizeDatabaseError: column "deleted_at" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Budget.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Budget.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/budgetController.js:22:23[39m
+2026-02-07 02:46:26:4626 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-07 02:46:33:4633 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-07 02:46:33:4633 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-07 02:46:37:4637 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-07 02:46:37:4637 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-07 02:46:40:4640 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-07 02:49:04:494 [31merror[39m: [31mSequelizeForeignKeyConstraintError: insert or update on table "budgets" violates foreign key constraint "budgets_user_id_fkey" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Budget.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Budget.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/budgetController.js:22:23[39m
+2026-02-07 02:51:07:517 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-02-07 02:52:32:5232 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-02-07 02:52:45:5245 [33mwarn[39m: [33mNotFound: errors.not_found[39m
+2026-02-07 02:54:56:5456 [33mwarn[39m: [33mNotFound: errors.user_not_found[39m
+2026-02-07 02:54:56:5456 [31merror[39m: [31mNotFoundError: errors.user_not_found [39m
+[31mStack: NotFoundError: errors.user_not_found[39m
+[31m    at BaseController.findOne (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:116:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/budgetController.js:19:4[39m
+2026-02-07 02:55:03:553 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-02-07 03:01:01:11 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type uuid: "3" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Transaction.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Transaction.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/transactionController.js:24:25[39m
+2026-02-07 03:02:13:213 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-02-07 03:03:13:313 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-02-08 23:37:39:3739 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-08 23:37:43:3743 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-08 23:37:43:3743 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-08 23:37:46:3746 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-08 23:37:46:3746 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-08 23:37:48:3748 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-08 23:45:28:4528 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-08 23:45:34:4534 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-08 23:45:34:4534 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-08 23:45:38:4538 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-08 23:45:38:4538 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-08 23:45:41:4541 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-08 23:47:40:4740 [31merror[39m: [31mSequelizeForeignKeyConstraintError: insert or update on table "debts" violates foreign key constraint "debts_account_id_fkey" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Debt.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Debt.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:78:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:47:16[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:24:21[39m
+2026-02-08 23:50:07:507 [32minfo[39m: [32mResponse Sent: [201] Debt and contact processed successfully[39m
+2026-02-08 23:51:13:5113 [32minfo[39m: [32mResponse Sent: [201] Debt and contact processed successfully[39m
+2026-02-08 23:51:59:5159 [32minfo[39m: [32mResponse Sent: [201] Debt and contact processed successfully[39m
+2026-02-08 23:53:07:537 [32minfo[39m: [32mResponse Sent: [201] Debt and contact processed successfully[39m
+2026-02-08 23:57:33:5733 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-08 23:57:40:5740 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-08 23:57:40:5740 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-08 23:57:44:5744 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-08 23:57:44:5744 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-08 23:57:48:5748 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-09 14:07:43:743 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-09 14:07:48:748 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-09 14:07:48:748 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-09 14:07:52:752 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-09 14:07:52:752 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-09 14:07:55:755 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-09 14:09:41:941 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-09 14:09:44:944 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-09 14:09:44:944 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-09 14:09:46:946 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-09 14:09:46:946 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-09 14:09:48:948 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m

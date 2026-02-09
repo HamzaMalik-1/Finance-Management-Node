@@ -3,6 +3,7 @@ import CountrySeeder from "./countries.seeder.js"
 import CitySeeder from "./cities.seeder.js";
 import CategorySeeder from "./category.seeder.js";
 import CurrencySeeder from "./currency.seeder.js";
+import AccountTypeSeeder from "./account.type.seeder.js";
 
 const mainSeeder = async()=>{
 
@@ -11,6 +12,7 @@ const mainSeeder = async()=>{
     await CitySeeder()
     await CategorySeeder()
     await CurrencySeeder()
+    await AccountTypeSeeder()
 }
 
 export default mainSeeder

@@ -51,7 +51,8 @@ export default (sequelize) => {
     modelName: "Account",
     tableName: "accounts",
     underscored: true,
-    timestamps: true
+    timestamps: true,
+    paranoid:true
   });
   return Account;
 };
