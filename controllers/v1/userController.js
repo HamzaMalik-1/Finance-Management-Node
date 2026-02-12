@@ -23,7 +23,7 @@ export const CreateUser = asyncHandler( async ( req,res)=>{
 
   await  UserController.alreadyExist({id:id})
 
-  const newUser =await  UserController.create({id,username,firstName,lastName,displayName,recoveryEmail,roleId:2})
+  const newUser =await  UserController.create({id,username,firstName,lastName,displayName,recoveryEmail})
   return sendResponse(res, StatusCodes.CREATED, "User created successfully", newUser);
 })
 

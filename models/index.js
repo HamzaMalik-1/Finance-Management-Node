@@ -17,9 +17,10 @@ import BudgetModel from './Budget.js';
 import NotificationModel from './Notification.js';
 import ContactModel from './Contact.js';
 import DebtModel from './Debt.js';
+import UserRoleModel from './UserRole.js';
 import { sequelize } from '../config/db.js';
 
-
+// --- Initialization ---
 const User = UserModel(sequelize);
 const Role = RoleModel(sequelize);
 const Modules = ModulesModel(sequelize);
@@ -31,22 +32,31 @@ const UserContact = UserContactModel(sequelize);
 const Currency = CurrencyModel(sequelize);
 const Country = CountryModel(sequelize);
 const City = CityModel(sequelize);
-
 const Account = AccountModel(sequelize);
 const AccountType = AccountTypeModel(sequelize);
 const Category = CategoryModel(sequelize);
-
 const Transaction = TransactionModel(sequelize);
 const Budget = BudgetModel(sequelize);
 const Notification = NotificationModel(sequelize);
-const Contact = ContactModel(sequelize)
-const Debt =DebtModel(sequelize)
+const Contact = ContactModel(sequelize);
+const Debt = DebtModel(sequelize);
+const UserRole = UserRoleModel(sequelize);
 
+// --- 1. User & Roles (Many-to-Many via Supabase UUID) ---
+User.belongsToMany(Role, { 
+  through: UserRole, 
+  foreignKey: 'userId', 
+  otherKey: 'roleId',
+  constraints: false // 🛑 CRITICAL: Prevents checking local users table
+});
+Role.belongsToMany(User, { 
+  through: UserRole, 
+  foreignKey: 'roleId', 
+  otherKey: 'userId',
+  constraints: false 
+});
 
-Role.hasMany(User, { foreignKey: 'roleId', as: 'users' });
-User.belongsTo(Role, { foreignKey: 'roleId', as: 'role' });
-
-
+// --- 2. Roles & Permissions ---
 Role.belongsToMany(Modules, { 
   through: RoleHasPermission, 
   foreignKey: 'roleId', 
@@ -59,93 +69,63 @@ Modules.belongsToMany(Role, {
   otherKey: 'roleId' 
 });
 
+// --- 3. User Personalization (Supabase ID Links) ---
+User.hasOne(UserSettings, { foreignKey: 'userId', as: 'settings', constraints: false });
+UserSettings.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
-User.hasOne(UserSettings, { foreignKey: 'userId', as: 'settings', onDelete: 'CASCADE' });
-UserSettings.belongsTo(User, { foreignKey: 'userId' });
+User.hasMany(UserContact, { foreignKey: 'userId', as: 'contacts', constraints: false });
+UserContact.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
-User.hasMany(UserContact, { foreignKey: 'userId', as: 'contacts', onDelete: 'CASCADE' });
-UserContact.belongsTo(User, { foreignKey: 'userId' });
+User.belongsToMany(Address, { through: UserAddress, foreignKey: 'userId', as: 'addresses', constraints: false });
+Address.belongsToMany(User, { through: UserAddress, foreignKey: 'addressId', constraints: false });
 
+// --- 4. Finance & Accounts (Supabase ID Links) ---
+User.hasMany(Account, { foreignKey: 'userId', as: 'accounts', constraints: false });
+Account.belongsTo(User, { foreignKey: 'userId', as: 'user', constraints: false });
 
-User.belongsToMany(Address, { through: UserAddress, foreignKey: 'userId', as: 'addresses' });
-Address.belongsToMany(User, { through: UserAddress, foreignKey: 'addressId' });
-
-
-// Country & City (One-to-Many)
-Country.hasMany(City, { foreignKey: 'countryId', as: 'cities' });
-City.belongsTo(Country, { foreignKey: 'countryId', as: 'country' });
-
-// Linking Master Tables to Address
-// Instead of just an ID, Address now points to real Country/City records
-Address.belongsTo(Country, { foreignKey: 'countryId', as: 'country' });
-Address.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
-
-// Linking Currency to UserSettings
-UserSettings.belongsTo(Currency, { foreignKey: 'baseCurrencyId', as: 'currency' });
-
-
-// 1. User <-> Account (One-to-Many)
-User.hasMany(Account, { foreignKey: 'userId', as: 'accounts' });
-Account.belongsTo(User, { foreignKey: 'userId', as: 'user' });
-
-// 2. AccountType <-> Account (One-to-Many)
 AccountType.hasMany(Account, { foreignKey: 'accountTypeId', as: 'accounts' });
 Account.belongsTo(AccountType, { foreignKey: 'accountTypeId', as: 'accountType' });
 
-// 3. Currency <-> Account (One-to-Many)
 Currency.hasMany(Account, { foreignKey: 'currencyId', as: 'accounts' });
 Account.belongsTo(Currency, { foreignKey: 'currencyId', as: 'currency' });
 
-// 1. One-to-Many: Parent Category to Sub-Categories
-Category.hasMany(Category, { 
-  foreignKey: 'parentId', 
-  as: 'subCategories' 
-});
-
-// 2. Many-to-One: Sub-Category back to its Parent
-Category.belongsTo(Category, { 
-  foreignKey: 'parentId', 
-  as: 'parent' 
-});
-
-
-// 1. Basic Links
-User.hasMany(Transaction, { foreignKey: 'userId', as: 'transactions' });
-Transaction.belongsTo(User, { foreignKey: 'userId' });
+// --- 5. Transactions & Categories ---
+User.hasMany(Transaction, { foreignKey: 'userId', as: 'transactions', constraints: false });
+Transaction.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
 Account.hasMany(Transaction, { foreignKey: 'accountId', as: 'accountTransactions' });
 Transaction.belongsTo(Account, { foreignKey: 'accountId', as: 'sourceAccount' });
 
-// 2. Special Link for Transfers
 Account.hasMany(Transaction, { foreignKey: 'toAccountId', as: 'receivedTransfers' });
 Transaction.belongsTo(Account, { foreignKey: 'toAccountId', as: 'destinationAccount' });
 
 Category.hasMany(Transaction, { foreignKey: 'categoryId', as: 'transactions' });
 Transaction.belongsTo(Category, { foreignKey: 'categoryId', as: 'category' });
 
-// 1. User <-> Budget
-User.hasMany(Budget, { foreignKey: 'userId', as: 'budgets' });
-Budget.belongsTo(User, { foreignKey: 'userId' });
+// Category Self-Relationship
+Category.hasMany(Category, { foreignKey: 'parentId', as: 'subCategories' });
+Category.belongsTo(Category, { foreignKey: 'parentId', as: 'parent' });
 
-// 2. Category <-> Budget
+// --- 6. Budgeting (Supabase ID Links) ---
+User.hasMany(Budget, { foreignKey: 'userId', as: 'budgets', constraints: false });
+Budget.belongsTo(User, { foreignKey: 'userId', constraints: false });
+
 Category.hasMany(Budget, { foreignKey: 'categoryId', as: 'budgets' });
 Budget.belongsTo(Category, { foreignKey: 'categoryId', as: 'category' });
 
-// 3. Currency <-> Budget
 Currency.hasMany(Budget, { foreignKey: 'currencyId', as: 'budgets' });
 Budget.belongsTo(Currency, { foreignKey: 'currencyId', as: 'currency' });
 
-// --- Notification Relationship ---
-User.hasMany(Notification, { foreignKey: 'userId', as: 'notifications', onDelete: 'CASCADE' });
-Notification.belongsTo(User, { foreignKey: 'userId' });
+// --- 7. Notifications & Communication ---
+User.hasMany(Notification, { foreignKey: 'userId', as: 'notifications', constraints: false });
+Notification.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
-// --- Contact Relationships ---
-User.hasMany(Contact, { foreignKey: 'userId', as: 'userContacts' });
-Contact.belongsTo(User, { foreignKey: 'userId' });
+User.hasMany(Contact, { foreignKey: 'userId', as: 'userContacts', constraints: false });
+Contact.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
-// --- Debt Relationships ---
-User.hasMany(Debt, { foreignKey: 'userId', as: 'debts' });
-Debt.belongsTo(User, { foreignKey: 'userId' });
+// --- 8. Debt Management ---
+User.hasMany(Debt, { foreignKey: 'userId', as: 'debts', constraints: false });
+Debt.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
 Contact.hasMany(Debt, { foreignKey: 'contactId', as: 'debts' });
 Debt.belongsTo(Contact, { foreignKey: 'contact', as: 'contactPerson' });
@@ -153,26 +133,30 @@ Debt.belongsTo(Contact, { foreignKey: 'contact', as: 'contactPerson' });
 Account.hasMany(Debt, { foreignKey: 'accountId', as: 'debts' });
 Debt.belongsTo(Account, { foreignKey: 'accountId', as: 'account' });
 
-// --- Linking Transactions to Debts ---
-// This allows you to see all repayments for a specific loan
 Debt.hasMany(Transaction, { foreignKey: 'debtId', as: 'repayments' });
 Transaction.belongsTo(Debt, { foreignKey: 'debtId', as: 'debt' });
 
+// --- 9. Location Helpers ---
+Country.hasMany(City, { foreignKey: 'countryId', as: 'cities' });
+City.belongsTo(Country, { foreignKey: 'countryId', as: 'country' });
+
+Address.belongsTo(Country, { foreignKey: 'countryId', as: 'country' });
+Address.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
+
+UserSettings.belongsTo(Currency, { foreignKey: 'baseCurrencyId', as: 'currency' });
+
+// ... existing model initializations
+
+// Add these direct associations so "include: [Role]" works
+UserRole.belongsTo(Role, { foreignKey: 'roleId' });
+Role.hasMany(UserRole, { foreignKey: 'roleId' });
+
+// Add these for the User side (even without constraints)
+UserRole.belongsTo(User, { foreignKey: 'userId', constraints: false });
+User.hasMany(UserRole, { foreignKey: 'userId', constraints: false });
 export {
-  User,
-  Role,
-  Modules,
-  RoleHasPermission,
-  UserSettings,
-  Address,
-  UserAddress,
-  UserContact,
-  Currency, Country, City,
-  Account, AccountType,
-  Category,
-  Transaction,
-  Budget,
-  Notification,
-  Contact,
-  Debt
+  User, Role, Modules, RoleHasPermission, UserSettings,
+  Address, UserAddress, UserContact, Currency, Country, City,
+  Account, AccountType, Category, Transaction, Budget,
+  Notification, Contact, Debt, UserRole
 };

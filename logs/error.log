@@ -729,3 +729,95 @@
 [31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:47:16[39m
 [31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
 [31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:24:21[39m
+2026-02-12 22:11:08:118 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:67:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-12 22:21:00:210 [31merror[39m: [31mTypeError: Class constructor UnauthorizedError cannot be invoked without 'new' [39m
+[31mStack: TypeError: Class constructor UnauthorizedError cannot be invoked without 'new'[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:168:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-12 23:11:06:116 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:168:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:38:38:3838 [31merror[39m: [31mReferenceError: sequelize is not defined [39m
+[31mStack: ReferenceError: sequelize is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:106:13[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:39:16:3916 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:99:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:41:02:412 [31merror[39m: [31mReferenceError: InternalServerError is not defined [39m
+[31mStack: ReferenceError: InternalServerError is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:128:5[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:41:38:4138 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:100:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:42:11:4211 [31merror[39m: [31mInternalServer: Failed to assign user roles. Registration rolled back.[39m
+2026-02-13 00:42:11:4211 [31merror[39m: [31mInternalServerError: Failed to assign user roles. Registration rolled back. [39m
+[31mStack: InternalServerError: Failed to assign user roles. Registration rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:129:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:45:26:4526 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:100:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:45:48:4548 [31merror[39m: [31mInternalServer: Failed to assign user roles. Registration rolled back.[39m
+2026-02-13 00:45:48:4548 [31merror[39m: [31mInternalServerError: Failed to assign user roles. Registration rolled back. [39m
+[31mStack: InternalServerError: Failed to assign user roles. Registration rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:130:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:50:15:5015 [31merror[39m: [31mInternalServer: Failed to assign user roles. Registration rolled back.[39m
+2026-02-13 00:50:15:5015 [31merror[39m: [31mInternalServerError: Failed to assign user roles. Registration rolled back. [39m
+[31mStack: InternalServerError: Failed to assign user roles. Registration rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:130:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:53:13:5313 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:100:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:53:44:5344 [31merror[39m: [31mInternalServer: Failed to assign user roles. Registration rolled back.[39m
+2026-02-13 00:53:44:5344 [31merror[39m: [31mInternalServerError: Failed to assign user roles. Registration rolled back. [39m
+[31mStack: InternalServerError: Failed to assign user roles. Registration rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:130:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:58:44:5844 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-02-13 00:58:44:5844 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:59:32:5932 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:100:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 00:59:53:5953 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-02-13 00:59:53:5953 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 01:06:37:637 [31merror[39m: [31mReferenceError: Role is not defined [39m
+[31mStack: ReferenceError: Role is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:228:16[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 01:07:25:725 [31merror[39m: [31mSequelizeEagerLoadingError: Role is not associated to UserRole! [39m
+[31mStack: SequelizeEagerLoadingError: Role is not associated to UserRole![39m
+[31m    at UserRole._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:565:13)[39m
+[31m    at UserRole._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at UserRole._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at UserRole.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:225:23[39m
+2026-02-13 01:11:14:1114 [31merror[39m: [31mTypeError: UserRole.find is not a function [39m
+[31mStack: TypeError: UserRole.find is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:224:36[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 01:11:38:1138 [31merror[39m: [31mTypeError: userRoles.map is not a function [39m
+[31mStack: TypeError: userRoles.map is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:234:31[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m

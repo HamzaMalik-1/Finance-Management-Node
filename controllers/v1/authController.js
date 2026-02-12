@@ -2,15 +2,17 @@ import { StatusCodes } from "http-status-codes";
 import { Op } from "sequelize";
 import asyncHandler from "../../utils/AsyncHelper/Async.js";
 import BaseController from "../../bases/BaseController.js";
-import { User } from "../../models/index.js";
+import { Role, User ,UserRole} from "../../models/index.js";
 import sendResponse from "../../utils/ResponseHelpers/sendResponse.js";
-import { supabase } from "../../config/db.js"; // Ensure you have this config
+import { sequelize, supabase } from "../../config/db.js"; // Ensure you have this config
 import {
   UnauthorizedError,
   BadRequestError,
+  InternalServerError,
 } from "../../utils/ErrorHelpers/Errors.js";
 
 const UserController = new BaseController(User);
+const UserRoleController = new BaseController(UserRole);
 
 /**
  * @desc    Signup using Supabase Auth and Sync to Local DB
@@ -48,6 +50,38 @@ const UserController = new BaseController(User);
  *         description: Validation error or weak password
  */
 
+// export const signup = asyncHandler(async (req, res) => {
+//   UserController.bodyExist(req.body);
+//   UserController.requireFields(req.body, ["username", "email", "password"]);
+
+//   const { username, email, password } = req.body;
+//   UserController.validatePassword(password);
+
+//   const { data, error: supabaseError } = await supabase.auth.signUp({
+//     email,
+//     password,
+//     options: {
+//       data: { username },
+//     },
+//   });
+// if(data.user.id)
+// {
+// await  UserRole.create({userId:data.user.id,roleId:2})
+// }
+//   if (supabaseError) {
+//     throw new BadRequestError(supabaseError.message, supabaseError);
+//   }
+
+//   return sendResponse(
+//     res,
+//     StatusCodes.CREATED,
+//     "User registered successfully",
+//     {
+//       user: data.user,
+//       session: data.session,
+//     },
+//   );
+// });
 export const signup = asyncHandler(async (req, res) => {
   UserController.bodyExist(req.body);
   UserController.requireFields(req.body, ["username", "email", "password"]);
@@ -55,16 +89,33 @@ export const signup = asyncHandler(async (req, res) => {
   const { username, email, password } = req.body;
   UserController.validatePassword(password);
 
+  // 1. Create User in Supabase Auth
   const { data, error: supabaseError } = await supabase.auth.signUp({
     email,
     password,
-    options: {
-      data: { username },
-    },
+    options: { data: { username } },
   });
 
   if (supabaseError) {
     throw new BadRequestError(supabaseError.message, supabaseError);
+  }
+
+  const userId = data?.user?.id;
+
+  // 2. Local Role Assignment
+  try {
+    if (userId) {
+      // ✅ This will now work without the 'User' record because constraints are disabled
+      await UserRole.create({ 
+        userId: userId, 
+        roleId: 2 // Default User role
+      });
+    }
+  } catch (dbError) {
+    // 🧹 Cleanup: If local assignment fails, delete the user from Supabase
+    // so they can try signing up again later.
+    await supabase.auth.admin.deleteUser(userId);
+    throw new InternalServerError("Role assignment failed. Signup rolled back.", dbError);
   }
 
   return sendResponse(
@@ -152,7 +203,6 @@ export const verifyotp = asyncHandler(async (req, res) => {
  *         description: Invalid credentials
  */
 
-
 export const login = asyncHandler(async (req, res) => {
   UserController.bodyExist(req.body);
   UserController.requireFields(req.body, ["email", "password"]);
@@ -165,26 +215,34 @@ export const login = asyncHandler(async (req, res) => {
   });
 
   if (error) {
-    throw UnauthorizedError("error.unauthorized");
+    throw new UnauthorizedError("error.unauthorized");
   }
 
   if (data?.user) {
-    // Extract only the fields you need
+    // ✅ Apply the findOne logic here
+    const userRoleData = await UserRole.findOne({
+      where: { userId: data.user.id },
+      include: [{
+        model: Role,
+        attributes: ['name'],
+      }]
+    });
+
+    // Extract the name safely (fallback to 'User' if not found)
+    const roleName = userRoleData?.Role?.name || "User";
+
     const cleanUser = {
       id: data.user.id,
       email: data.user.email,
-      username: data.user.user_metadata?.username || null, // Metadata from signup
+      username: data.user.user_metadata?.username || null,
       last_login: data.user.last_sign_in_at,
-      token:data.session.access_token
+      token: data.session.access_token,
+      role: roleName // ✅ Now returns a single string like "Admin"
     };
 
-    return sendResponse(res, StatusCodes.OK, "Login Successfully", {
-      user: cleanUser, // ✅ Now only sends the 4 fields above
-      // session: data.session,
-    });
+    return sendResponse(res, StatusCodes.OK, "Login Successfully", cleanUser);
   }
 });
-
 // export const login = asyncHandler(async (req, res) => {
 //   UserController.bodyExist(req.body);
 //   const { email, password } = req.body;
