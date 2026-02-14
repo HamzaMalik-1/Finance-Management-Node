@@ -30,6 +30,7 @@ import v1AccountRouter from "./routes/v1/accountRoutes.js";
 import v1BudgetRouter from "./routes/v1/budgetRoutes.js";
 import v1TransactionRouter from "./routes/v1/transactionRoutes.js";
 import v1DebtRouter from "./routes/v1/debtRoutes.js";
+import v1ConstantRouter from "./routes/v1/constantRoutes.js";
 // app.get('/', async (req, res, next) => {
 //   try {
 //     throw new InternalServerError("Something went wrong on the server.");
@@ -60,6 +61,7 @@ app.use("/api/v1/user-account", v1AccountRouter);
 app.use("/api/v1/budget", v1BudgetRouter);
 app.use("/api/v1/transaction", v1TransactionRouter);
 app.use("/api/v1/dept", v1DebtRouter);
+app.use("/api/v1/constant", v1ConstantRouter);
 // Routes
 app.get("/", (req, res) => {
   res.send("Server is working!");

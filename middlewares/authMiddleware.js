@@ -1,5 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
-import { UnAuthorizedError } from '../utils/ErrorHelpers/Errors.js';
+import { UnauthorizedError } from '../utils/ErrorHelpers/Errors.js';
 import asyncHandler from '../utils/AsyncHelper/Async.js';
 
 // Initialize Supabase Client (usually imported from a config file)
@@ -17,14 +17,14 @@ export const protect = asyncHandler(async (req, res, next) => {
   }
 
   if (!token) {
-    throw new UnAuthorizedError("You are not logged in. Please login to get access.");
+    throw new UnauthorizedError("You are not logged in. Please login to get access.");
   }
 
   // 2. Verify token with Supabase
   const { data: { user }, error } = await supabase.auth.getUser(token);
 
   if (error || !user) {
-    throw new UnAuthorizedError("Invalid token or session expired.");
+    throw new UnauthorizedError("Invalid token or session expired.");
   }
 
   // 3. Attach user to request

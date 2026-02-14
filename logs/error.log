@@ -821,3 +821,29 @@
 [31mStack: TypeError: userRoles.map is not a function[39m
 [31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:234:31[39m
 [31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-13 11:22:41:2241 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-13 11:32:33:3233 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-14 01:34:22:3422 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
