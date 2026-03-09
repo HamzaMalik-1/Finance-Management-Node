@@ -37,28 +37,31 @@ export const createAccount = asyncHandler(async (req, res) => {
  */
 export const getUserAccounts = asyncHandler(async (req, res) => {
     const { userId } = req.params;
-    
-    const accounts = await AccountController.getAllOrPaginated(
-        { userId }, 
-        { attributes: ['id', 'name', 'balance', 'openingBalance', 'isActive'],
-            include: [
-                { 
-                    model: AccountType, 
-                    as: 'accountType', // 👈 Change this to match your model association alias
-                    attributes: ['name', 'slug'] 
-                },
-                { 
-                    model: Currency, 
-                    as: 'currency', // 👈 Change this to match your model association alias
-                    attributes: ['code', 'symbol'] 
-                }
-            ] 
-        }
+
+    // 1. Validation
+    if (!userId) {
+        return sendResponse(res, StatusCodes.BAD_REQUEST, "User ID is required");
+    }
+
+    // 2. Fetch Data (Ensure you 'await' the result)
+    const accounts = await Account.findAll({
+        where: { userId },
+        order: [['createdAt', 'DESC']]
+    });
+
+    // 3. Conditional Check (Optional: helps if you want to distinguish empty from error)
+    if (!accounts || accounts.length === 0) {
+        return sendResponse(res, StatusCodes.OK, "No accounts found for this user", []);
+    }
+
+    // 4. Send Response (Pass the 'accounts' array into the data field)
+    return sendResponse(
+        res, 
+        StatusCodes.OK, 
+        "Accounts fetched successfully", 
+        accounts // ✅ This ensures "data" is not null
     );
-
-    return sendResponse(res, StatusCodes.OK, "Accounts fetched successfully", accounts);
 });
-
 /**
  * Update Account details (Name, isActive, etc.)
  */
@@ -70,6 +73,9 @@ export const updateAccount = asyncHandler(async (req, res) => {
     return sendResponse(res, StatusCodes.OK, "Account updated", updatedAccount);
 });
 
+
+
+
 /**
  * Soft Delete Account
  */
@@ -78,3 +84,13 @@ export const deleteAccount = asyncHandler(async (req, res) => {
     await AccountController.softDelete({ id });
     return sendResponse(res, StatusCodes.OK, "Account deleted successfully");
 });
+
+// export const getAccountDetail = asyncHandler(async ( req, res)=>{
+//     AccountController.paramsExist(req.params)
+//     AccountController.requireFieldsInParams(req.params,['id'])
+//     const {id}=req.params
+
+//     const productDetail = await AccountController.getAllOrPaginated({
+
+//     })
+// })

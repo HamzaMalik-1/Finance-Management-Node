@@ -142,3 +142,63 @@ export const updateUserSettings = asyncHandler(async (req, res) => {
 
     return sendResponse(res, StatusCodes.OK, "User settings updated successfully", updatedSettings);
 });
+
+/**
+ * Fetch User Settings
+ */
+export const getUserSettings = asyncHandler(async (req, res) => {
+    const { userId } = req.params;
+    
+    // Find settings by userId
+    const settings = await UserSettings.findOne({ where: { userId } });
+
+    if (!settings) {
+        // If not found, return a success with null or an empty object 
+        // to let the frontend know it needs to initialize them
+        return sendResponse(res, StatusCodes.OK, "Settings not initialized", null);
+    }
+
+    return sendResponse(res, StatusCodes.OK, "User settings fetched", settings);
+});
+
+
+/**
+ * 7. Get Complete User Profile
+ */
+export const getUserProfile = asyncHandler(async (req, res) => {
+    const { userId } = req.params;
+
+    const userProfile = await User.findByPk(userId, {
+        include: [
+            { model: UserSettings, as: 'settings' },
+            { model: UserContact, as: 'contacts' },
+            { 
+                model: Address, 
+                as: 'addresses',
+                through: { attributes: [] }, // Hide junction table data
+                include: ['country', 'city']
+            }
+        ]
+    });
+
+    if (!userProfile) {
+        throw new NotFoundError("errors.user_not_found");
+    }
+
+    return sendResponse(res, StatusCodes.OK, "Profile fetched successfully", userProfile);
+});
+
+/**
+ * 8. Update User Profile
+ */
+export const updateUserProfile = asyncHandler(async (req, res) => {
+    const { userId } = req.params;
+    const { firstName, lastName, displayName, recoveryEmail } = req.body;
+
+    const user = await User.findByPk(userId);
+    if (!user) throw new NotFoundError("errors.user_not_found");
+
+    await user.update({ firstName, lastName, displayName, recoveryEmail });
+
+    return sendResponse(res, StatusCodes.OK, "Profile updated", user);
+});

@@ -44,6 +44,14 @@ class AlreadyExist extends ApiError {
   }
 }
 
+class CreationError extends ApiError{
+  constructor(message="error.creation_error",details)
+  {
+    logger.warn(`Conflict: ${message}`);
+    super(StatusCodes.CONFLICT, message, details);
+  }
+}
+
 export {
   BadRequestError,
   InternalServerError,
@@ -51,4 +59,5 @@ export {
   ForbiddenError,
   UnauthorizedError,
   AlreadyExist,
+  CreationError
 };

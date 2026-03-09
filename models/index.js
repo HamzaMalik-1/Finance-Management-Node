@@ -42,12 +42,12 @@ const Contact = ContactModel(sequelize);
 const Debt = DebtModel(sequelize);
 const UserRole = UserRoleModel(sequelize);
 
-// --- 1. User & Roles (Many-to-Many via Supabase UUID) ---
+// --- 1. User & Roles (Many-to-Many) ---
 User.belongsToMany(Role, { 
   through: UserRole, 
   foreignKey: 'userId', 
   otherKey: 'roleId',
-  constraints: false // 🛑 CRITICAL: Prevents checking local users table
+  constraints: false 
 });
 Role.belongsToMany(User, { 
   through: UserRole, 
@@ -55,6 +55,12 @@ Role.belongsToMany(User, {
   otherKey: 'userId',
   constraints: false 
 });
+
+// Helper associations for direct UserRole queries
+UserRole.belongsTo(Role, { foreignKey: 'roleId' });
+Role.hasMany(UserRole, { foreignKey: 'roleId' });
+UserRole.belongsTo(User, { foreignKey: 'userId', constraints: false });
+User.hasMany(UserRole, { foreignKey: 'userId', constraints: false });
 
 // --- 2. Roles & Permissions ---
 Role.belongsToMany(Modules, { 
@@ -69,7 +75,7 @@ Modules.belongsToMany(Role, {
   otherKey: 'roleId' 
 });
 
-// --- 3. User Personalization (Supabase ID Links) ---
+// --- 3. User Personalization ---
 User.hasOne(UserSettings, { foreignKey: 'userId', as: 'settings', constraints: false });
 UserSettings.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
@@ -79,7 +85,7 @@ UserContact.belongsTo(User, { foreignKey: 'userId', constraints: false });
 User.belongsToMany(Address, { through: UserAddress, foreignKey: 'userId', as: 'addresses', constraints: false });
 Address.belongsToMany(User, { through: UserAddress, foreignKey: 'addressId', constraints: false });
 
-// --- 4. Finance & Accounts (Supabase ID Links) ---
+// --- 4. Finance & Accounts ---
 User.hasMany(Account, { foreignKey: 'userId', as: 'accounts', constraints: false });
 Account.belongsTo(User, { foreignKey: 'userId', as: 'user', constraints: false });
 
@@ -106,7 +112,7 @@ Transaction.belongsTo(Category, { foreignKey: 'categoryId', as: 'category' });
 Category.hasMany(Category, { foreignKey: 'parentId', as: 'subCategories' });
 Category.belongsTo(Category, { foreignKey: 'parentId', as: 'parent' });
 
-// --- 6. Budgeting (Supabase ID Links) ---
+// --- 6. Budgeting ---
 User.hasMany(Budget, { foreignKey: 'userId', as: 'budgets', constraints: false });
 Budget.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
@@ -123,14 +129,14 @@ Notification.belongsTo(User, { foreignKey: 'userId', constraints: false });
 User.hasMany(Contact, { foreignKey: 'userId', as: 'userContacts', constraints: false });
 Contact.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
-// --- 8. Debt Management ---
+// --- 8. Debt Management (FIXED & CONSOLIDATED) ---
 User.hasMany(Debt, { foreignKey: 'userId', as: 'debts', constraints: false });
 Debt.belongsTo(User, { foreignKey: 'userId', constraints: false });
 
-Contact.hasMany(Debt, { foreignKey: 'contactId', as: 'debts' });
-Debt.belongsTo(Contact, { foreignKey: 'contact', as: 'contactPerson' });
+Contact.hasMany(Debt, { foreignKey: 'contactId', as: 'personDebts' });
+Debt.belongsTo(Contact, { foreignKey: 'contactId', as: 'contactPerson' });
 
-Account.hasMany(Debt, { foreignKey: 'accountId', as: 'debts' });
+Account.hasMany(Debt, { foreignKey: 'accountId', as: 'accountDebts' });
 Debt.belongsTo(Account, { foreignKey: 'accountId', as: 'account' });
 
 Debt.hasMany(Transaction, { foreignKey: 'debtId', as: 'repayments' });
@@ -145,15 +151,6 @@ Address.belongsTo(City, { foreignKey: 'cityId', as: 'city' });
 
 UserSettings.belongsTo(Currency, { foreignKey: 'baseCurrencyId', as: 'currency' });
 
-// ... existing model initializations
-
-// Add these direct associations so "include: [Role]" works
-UserRole.belongsTo(Role, { foreignKey: 'roleId' });
-Role.hasMany(UserRole, { foreignKey: 'roleId' });
-
-// Add these for the User side (even without constraints)
-UserRole.belongsTo(User, { foreignKey: 'userId', constraints: false });
-User.hasMany(UserRole, { foreignKey: 'userId', constraints: false });
 export {
   User, Role, Modules, RoleHasPermission, UserSettings,
   Address, UserAddress, UserContact, Currency, Country, City,

@@ -4,6 +4,7 @@ import {
   BadRequestError,
   NotFoundError,
   InternalServerError,
+  CreationError,
 } from "../utils/ErrorHelpers/Errors.js";
 import ApiError from "../utils/ErrorHelpers/ApiError.js";
 import logger from "../utils/logger.js";
@@ -27,6 +28,45 @@ class BaseController {
         missingFields: missing,
       });
     }
+  }
+
+   requireFieldsInParams(param, fields) {
+    const missing = fields.filter((field) => !param[field]);
+    if (missing.length > 0) {
+      logger.warn(`Missing fields: ${missing.join(", ")}`);
+      // Pass the missing fields array into the 'details' parameter
+      throw new BadRequestError("errors.validation_error", {
+        missingFields: missing,
+      });
+    }
+  }
+
+  async update(filter, data, options = {}) {
+    const { include = [], attributes = null, transaction = null } = options;
+
+    // 1. Find the record first to verify existence
+    const record = await this.model.findOne({ 
+      where: filter,
+      transaction 
+    });
+
+    if (!record) {
+      throw new NotFoundError("errors.not_found");
+    }
+
+    // 2. Perform the update
+    await record.update(data, { transaction });
+
+    // 3. Re-fetch the updated record to include associations
+    // This ensures your frontend Edit Modal gets the nested IDs it needs.
+    const updatedRecord = await this.model.findOne({
+      where: filter,
+      include,
+      attributes,
+      transaction
+    });
+
+    return updatedRecord;
   }
 
   // bases/BaseController.js
@@ -66,8 +106,11 @@ class BaseController {
     }
   }
 
-  async alreadyExist(filter, message = "errors.already_exists") {
-    const record = await this.model.findOne({ where: filter });
+ async alreadyExist(filter, message = "errors.already_exists") {
+    const record = await this.model.findOne({ 
+      where: filter 
+    });
+
     if (record) {
       throw new AlreadyExist(message);
     }
@@ -75,7 +118,12 @@ class BaseController {
   }
 
   async create(data,option={}) {
-    return await this.model.create(data,option);
+    const record= await this.model.create(data,option);
+    if(!record)
+    {
+      throw new CreationError()
+    }
+    return record
   }
 
   async delete(filter,options={}) {
@@ -156,7 +204,7 @@ class BaseController {
       });
 
       return {
-        data: rows,
+        list: rows,
         total: count,
         page: parseInt(page),
         totalPages: Math.ceil(count / limit),
@@ -164,8 +212,10 @@ class BaseController {
     }
 
     const data = await this.model.findAll({ where: filter, order, include,attributes });
-    return { data };
+    return  data ;
   }
+
+  
 
   isObject(value) {
     const check =

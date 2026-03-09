@@ -1380,3 +1380,1288 @@
 2026-02-14 03:06:17:617 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
 2026-02-14 03:06:18:618 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
 2026-02-14 03:07:11:711 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-14 11:01:41:141 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-14 11:01:41:141 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-14 11:56:16:5616 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-14 11:56:18:5618 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-14 11:59:10:5910 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 11:59:25:5925 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 12:02:10:210 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 12:02:38:238 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:08:54:854 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-14 14:11:38:1138 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:18:13:1813 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:42:37:4237 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:42:38:4238 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:42:43:4243 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:42:49:4249 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:43:37:4337 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:46:04:464 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-14 14:46:04:464 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-14 14:46:04:464 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-14 14:46:04:464 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-14 14:46:34:4634 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-14 14:46:35:4635 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-14 14:47:05:475 [31merror[39m: [31mTypeError: AccountTypeController.findAll is not a function [39m
+[31mStack: TypeError: AccountTypeController.findAll is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/constantController.js:51:54[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:291:5)[39m
+2026-02-14 14:47:05:475 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:47:05:475 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-14 14:49:51:4951 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:49:51:4951 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-14 14:49:51:4951 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-14 14:51:10:5110 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:54:34:5434 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:54:34:5434 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-14 14:54:35:5435 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-14 14:54:50:5450 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 14:54:50:5450 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-14 14:54:50:5450 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-14 23:53:04:534 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-14 23:53:05:535 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-14 23:53:09:539 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 23:53:10:5310 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-14 23:53:10:5310 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-14 23:53:33:5333 [32minfo[39m: [32mResponse Sent: [201] Account created successfully[39m
+2026-02-14 23:53:33:5333 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 23:53:38:5338 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 23:53:38:5338 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-14 23:53:39:5339 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-14 23:55:14:5514 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 23:55:14:5514 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-14 23:55:14:5514 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-14 23:57:35:5735 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-14 23:58:11:5811 [31merror[39m: [31mTypeError: Spread syntax requires ...iterable[Symbol.iterator] to be a function [39m
+[31mStack: TypeError: Spread syntax requires ...iterable[Symbol.iterator] to be a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:59:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-14 23:59:18:5918 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:00:22:022 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:00:29:029 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:00:30:030 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-15 00:00:30:030 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-15 00:04:13:413 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:04:13:413 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-15 00:04:13:413 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-15 00:04:41:441 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type uuid: "undefined" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Account.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Account.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async BaseController.softDelete (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:99:20)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:81:5[39m
+2026-02-15 00:04:41:441 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:05:23:523 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:05:23:523 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-15 00:05:23:523 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-15 00:05:31:531 [32minfo[39m: [32mResponse Sent: [200] Account deleted successfully[39m
+2026-02-15 00:05:31:531 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:08:38:838 [32minfo[39m: [32mResponse Sent: [201] Account created successfully[39m
+2026-02-15 00:08:38:838 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:19:20:1920 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:19:56:1956 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:19:56:1956 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-15 00:19:56:1956 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-15 00:20:04:204 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:20:04:204 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-15 00:20:04:204 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-15 00:42:49:4249 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:42:50:4250 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-15 00:42:51:4251 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-15 00:43:36:4336 [31merror[39m: [31mTypeError: AccountController.update is not a function [39m
+[31mStack: TypeError: AccountController.update is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:72:52[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-15 00:43:37:4337 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:43:50:4350 [31merror[39m: [31mTypeError: AccountController.update is not a function [39m
+[31mStack: TypeError: AccountController.update is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:72:52[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-15 00:43:52:4352 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:49:21:4921 [32minfo[39m: [32mResponse Sent: [200] Account updated[39m
+2026-02-15 00:49:21:4921 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:49:27:4927 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:49:28:4928 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-15 00:49:29:4929 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-15 00:49:37:4937 [32minfo[39m: [32mResponse Sent: [200] Account updated[39m
+2026-02-15 00:49:37:4937 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:57:56:5756 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-15 00:57:56:5756 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:57:56:5756 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-15 00:57:56:5756 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:57:57:5757 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-15 00:59:42:5942 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-15 00:59:42:5942 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:59:42:5942 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-15 00:59:42:5942 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:59:42:5942 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-16 08:26:47:2647 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 08:26:47:2647 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 08:26:47:2647 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 08:26:47:2647 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 08:26:48:2648 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-16 08:41:57:4157 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 08:41:57:4157 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 08:41:57:4157 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 08:41:57:4157 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 08:41:57:4157 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-16 10:36:27:3627 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 10:36:27:3627 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 10:36:27:3627 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 10:36:27:3627 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 10:36:29:3629 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-16 17:23:34:2334 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 17:23:34:2334 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:23:34:2334 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 17:23:34:2334 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:23:34:2334 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-16 17:33:46:3346 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 17:33:46:3346 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:33:46:3346 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 17:33:46:3346 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:33:47:3347 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-16 17:43:33:4333 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-16 17:43:33:4333 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 17:43:33:4333 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:43:33:4333 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-16 17:43:33:4333 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 18:15:42:1542 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-16 18:18:29:1829 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:19[39m
+2026-02-16 18:23:20:2320 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:19[39m
+2026-02-16 18:24:09:249 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:19[39m
+2026-02-16 18:25:12:2512 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-16 18:25:19:2519 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-16 18:25:19:2519 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-16 18:25:24:2524 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-16 18:25:24:2524 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-16 18:25:27:2527 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-16 18:25:41:2541 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-16 18:26:59:2659 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-16 18:27:21:2721 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-16 18:27:24:2724 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-16 18:27:24:2724 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-16 18:27:25:2725 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-16 18:27:25:2725 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-16 18:27:27:2727 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-16 18:27:30:2730 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-16 18:29:17:2917 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-02-16 18:29:21:2921 [32minfo[39m: [32mℹ️ Categories are already up to date.[39m
+2026-02-16 18:29:21:2921 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-02-16 18:29:23:2923 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-02-16 18:29:23:2923 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-02-16 18:29:25:2925 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-02-16 18:29:28:2928 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-16 18:31:27:3127 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-16 18:31:27:3127 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:112:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:3[39m
+2026-02-16 18:38:34:3834 [31merror[39m: [31mSequelizeDatabaseError: column "deleted_at" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Category.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Category.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async BaseController.delete (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:127:20)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:32:3[39m
+2026-02-16 18:41:31:4131 [33mwarn[39m: [33mNotFound: errors.not_found[39m
+2026-02-16 18:41:31:4131 [31merror[39m: [31mNotFoundError: errors.not_found [39m
+[31mStack: NotFoundError: errors.not_found[39m
+[31m    at BaseController.delete (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:129:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:32:3[39m
+2026-02-16 18:41:48:4148 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-16 18:46:01:461 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:49:33:4933 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:49:35:4935 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:52:37:5237 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:54:52:5452 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:55:06:556 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:56:44:5644 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 16:46:30:4630 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 16:52:15:5215 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 16:53:49:5349 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-17 16:53:52:5352 [33mwarn[39m: [33mConflict: errors.already_exists[39m
+2026-02-17 16:53:52:5352 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:115:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:2[39m
+2026-02-17 16:54:52:5452 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-17 16:55:19:5519 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 17:01:25:125 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 17:01:54:154 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 17:01:57:157 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 17:08:18:818 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-17 17:08:26:826 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-17 17:19:06:196 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:20:27:2027 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:20:37:2037 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:20:40:2040 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:21:05:215 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:21:34:2134 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:21:51:2151 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:24:41:2441 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 17:25:05:255 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-17 18:03:59:359 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-17 18:03:59:359 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-17 18:03:59:359 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-17 18:03:59:359 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-17 18:04:00:40 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-17 18:08:38:838 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-17 18:08:38:838 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-17 18:08:38:838 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-17 18:08:38:838 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-17 18:08:38:838 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 15:52:52:5252 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-20 15:52:53:5253 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-20 16:11:32:1132 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:14:26:1426 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-20 16:14:46:1446 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-20 16:37:55:3755 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:39:06:396 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:40:23:4023 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 16:40:24:4024 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:40:31:4031 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 16:40:32:4032 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:40:51:4051 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 16:40:51:4051 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:41:05:415 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-20 16:41:05:415 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-20 16:41:06:416 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-20 16:41:06:416 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-20 16:41:06:416 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:46:01:461 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:46:14:4614 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-20 16:46:14:4614 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:46:31:4631 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 16:46:31:4631 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:46:45:4645 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 16:46:45:4645 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:46:51:4651 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-02-20 16:46:51:4651 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:57:49:5749 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:58:04:584 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 16:58:17:5817 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:01:27:127 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 17:01:27:127 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:01:35:135 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:01:36:136 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:01:51:151 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:01:51:151 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:03:26:326 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:03:26:326 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:05:27:527 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:05:27:527 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:05:33:533 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:05:33:533 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:05:39:539 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:05:40:540 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:27:33:2733 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:41:54:4154 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 17:41:55:4155 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:42:09:429 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 17:42:09:429 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:47:50:4750 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 17:47:50:4750 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:48:07:487 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-02-20 17:48:07:487 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:48:14:4814 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:48:14:4814 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:49:47:4947 [33mwarn[39m: [33mMissing fields: color[39m
+2026-02-20 17:49:47:4947 [33mwarn[39m: [33mBadRequest: errors.validation_error[39m
+2026-02-20 17:49:47:4947 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:27:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:11:22[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-20 17:49:48:4948 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:55:06:556 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:55:06:556 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 17:55:19:5519 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-02-20 17:55:20:5520 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 19:46:02:462 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-20 19:48:32:4832 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-20 19:48:32:4832 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 19:48:32:4832 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-20 19:48:32:4832 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 19:48:33:4833 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:13:26:1326 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:13:26:1326 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:13:27:1327 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:15:10:1510 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-20 20:15:10:1510 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:15:10:1510 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-20 20:15:10:1510 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:19:03:193 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-20 20:19:03:193 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:19:03:193 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-20 20:19:03:193 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:19:10:1910 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:20:39:2039 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-20 20:20:40:2040 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-20 20:20:43:2043 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:20:43:2043 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-20 20:20:44:2044 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-20 20:21:08:218 [32minfo[39m: [32mResponse Sent: [201] Account created successfully[39m
+2026-02-20 20:21:08:218 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:21:13:2113 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:21:13:2113 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-20 20:21:13:2113 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-20 20:21:16:2116 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:21:16:2116 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-20 20:21:16:2116 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-20 20:21:25:2125 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:21:25:2125 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:21:33:2133 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-20 20:21:33:2133 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:21:33:2133 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-20 20:22:08:228 [32minfo[39m: [32mResponse Sent: [201] Account created successfully[39m
+2026-02-20 20:22:09:229 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:22:52:2252 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:22:53:2253 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:23:09:239 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:23:09:239 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:23:09:239 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:26:16:2616 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 20:26:16:2616 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:26:16:2616 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:26:16:2616 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:28:59:2859 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 20:28:59:2859 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:28:59:2859 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:28:59:2859 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:29:33:2933 [32minfo[39m: [32mResponse Sent: [201] Debt and contact processed successfully[39m
+2026-02-20 20:29:33:2933 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:29:33:2933 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:31:01:311 [32minfo[39m: [32mResponse Sent: [201] Debt and contact processed successfully[39m
+2026-02-20 20:31:01:311 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:31:01:311 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:33:07:337 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 20:33:07:337 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 20:33:07:337 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 20:33:07:337 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:33:41:3341 [32minfo[39m: [32mResponse Sent: [201] Debt and contact processed successfully[39m
+2026-02-20 20:33:41:3341 [32minfo[39m: [32mResponse Sent: [200] Debts fetched[39m
+2026-02-20 20:33:41:3341 [32minfo[39m: [32mResponse Sent: [200] Debt summary calculated[39m
+2026-02-20 21:02:59:259 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:59:19[39m
+2026-02-20 21:03:04:34 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:03:04:34 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:03:04:34 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:03:53:353 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:59:19[39m
+2026-02-20 21:03:54:354 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:03:54:354 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:03:54:354 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:05:16:516 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:05:19:519 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:05:20:520 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:05:21:521 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:09:12:912 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:09:12:912 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:09:12:912 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:09:12:912 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:10:27:1027 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:44:16[39m
+2026-02-20 21:10:28:1028 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:10:28:1028 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:10:34:1034 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:44:16[39m
+2026-02-20 21:10:34:1034 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:10:34:1034 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:11:19:1119 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 21:11:19:1119 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:11:20:1120 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:11:46:1146 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:11:46:1146 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:11:46:1146 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:11:46:1146 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:12:57:1257 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:12:57:1257 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:12:57:1257 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:12:58:1258 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:13:24:1324 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 21:13:25:1325 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:13:25:1325 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:13:50:1350 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 21:13:50:1350 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:13:50:1350 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:21:48:2148 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 21:21:48:2148 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:21:49:2149 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:29:45:2945 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:29:45:2945 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:31:07:317 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-20 21:31:08:318 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-20 21:32:17:3217 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:32:17:3217 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:32:17:3217 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:32:17:3217 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:36:56:3656 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-02-20 21:36:56:3656 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 21:37:00:370 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-20 21:37:01:371 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-20 21:37:02:372 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:37:02:372 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:37:02:372 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:37:02:372 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:42:13:4213 [31merror[39m: [31mReferenceError: Transaction is not defined [39m
+[31mStack: ReferenceError: Transaction is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:126:24[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-20 21:42:55:4255 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 21:42:56:4256 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 21:43:32:4332 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:43:32:4332 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:43:32:4332 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:43:59:4359 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 21:43:59:4359 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:43:59:4359 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:44:03:443 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 21:50:31:5031 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 21:50:44:5044 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 21:52:59:5259 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:52:59:5259 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 21:52:59:5259 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:55:47:5547 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 21:55:47:5547 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:55:47:5547 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:55:58:5558 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 21:56:24:5624 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 21:56:24:5624 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 21:56:24:5624 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 21:56:27:5627 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:00:10:010 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:00:29:029 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 22:00:29:029 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:00:29:029 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:00:40:040 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:04:27:427 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 22:04:27:427 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 22:04:27:427 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:04:27:427 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:04:47:447 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 22:04:47:447 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:04:47:447 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:04:54:454 [31merror[39m: [31mReferenceError: Op is not defined [39m
+[31mStack: ReferenceError: Op is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:186:33[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-20 22:04:54:454 [31merror[39m: [31mReferenceError: Op is not defined [39m
+[31mStack: ReferenceError: Op is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:186:33[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-20 22:07:53:753 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:07:53:753 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 22:07:53:753 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 22:07:53:753 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:07:57:757 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:08:23:823 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 22:08:24:824 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:08:24:824 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:08:25:825 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:10:00:100 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:12:07:127 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:12:07:127 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 22:12:12:1212 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 22:12:12:1212 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:12:12:1212 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:12:30:1230 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 22:12:30:1230 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:12:30:1230 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:14:04:144 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 22:14:04:144 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 22:14:04:144 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:14:04:144 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:14:53:1453 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:14:53:1453 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 22:14:53:1453 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:14:53:1453 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 22:20:10:2010 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 22:20:10:2010 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 22:20:10:2010 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:20:10:2010 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:20:36:2036 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-02-20 22:20:36:2036 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:20:36:2036 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-20 22:20:41:2041 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:21:12:2112 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type uuid: "undefined" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:25:22[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:23:20[39m
+2026-02-20 22:21:12:2112 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:21:22:2122 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type uuid: "undefined" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:25:22[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:23:20[39m
+2026-02-20 22:21:23:2123 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:25:17:2517 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:25:17:2517 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-20 22:25:31:2531 [32minfo[39m: [32mResponse Sent: [200] Repayment recorded successfully[39m
+2026-02-20 22:25:31:2531 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:25:44:2544 [32minfo[39m: [32mResponse Sent: [200] Repayment recorded successfully[39m
+2026-02-20 22:25:45:2545 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-02-20 22:25:49:2549 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-20 22:25:49:2549 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-20 22:25:49:2549 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-21 02:40:09:409 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-21 02:40:09:409 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-21 02:40:10:4010 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-21 02:40:10:4010 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-21 02:49:58:4958 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-21 02:49:58:4958 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 02:49:58:4958 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-21 02:49:58:4958 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 02:50:13:5013 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-21 02:50:13:5013 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-21 02:50:13:5013 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-21 02:50:13:5013 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-21 02:50:23:5023 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-21 02:56:37:5637 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-02-21 02:56:37:5637 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 02:56:56:5656 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-02-21 02:56:56:5656 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 02:57:18:5718 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-21 02:57:19:5719 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-21 02:58:04:584 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-21 02:58:04:584 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-21 02:58:04:584 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-21 02:58:04:584 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-21 03:19:47:1947 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-21 03:19:47:1947 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-21 03:19:47:1947 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-21 03:19:47:1947 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-21 03:20:22:2022 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-21 03:20:22:2022 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-21 03:50:56:5056 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-21 03:50:57:5057 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-21 03:50:57:5057 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-21 13:15:13:1513 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-21 13:15:13:1513 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 13:15:13:1513 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-21 13:15:13:1513 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 13:15:13:1513 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-23 23:27:28:2728 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-23 23:27:28:2728 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-23 23:27:34:2734 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-23 23:27:35:2735 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-23 23:27:35:2735 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-23 23:27:35:2735 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-23 23:27:47:2747 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-23 23:40:40:4040 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-23 23:40:40:4040 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-23 23:40:40:4040 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-23 23:40:40:4040 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-23 23:42:26:4226 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-23 23:42:26:4226 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-23 23:42:26:4226 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-23 23:42:27:4227 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-23 23:51:09:519 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-23 23:51:09:519 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:51:59:5159 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:51:59:5159 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-23 23:54:54:5454 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:54:54:5454 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-23 23:56:00:560 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-23 23:56:00:560 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-23 23:56:00:560 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:57:18:5718 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-02-23 23:57:19:5719 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:57:24:5724 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-23 23:57:24:5724 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:57:26:5726 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-23 23:57:29:5729 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:57:30:5730 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-23 23:57:30:5730 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-23 23:57:37:5737 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-23 23:57:38:5738 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-23 23:57:57:5757 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-23 23:57:57:5757 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-23 23:57:59:5759 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-23 23:58:18:5818 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-23 23:59:20:5920 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-23 23:59:20:5920 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-23 23:59:20:5920 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-24 00:03:34:334 [32minfo[39m: [32mResponse Sent: [200] Budget removed successfully[39m
+2026-02-24 00:03:35:335 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-24 00:03:53:353 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-02-24 00:03:53:353 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-24 00:06:43:643 [32minfo[39m: [32mResponse Sent: [200] Budget updated successfully[39m
+2026-02-24 00:06:43:643 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-24 00:06:47:647 [32minfo[39m: [32mResponse Sent: [200] Budget removed successfully[39m
+2026-02-24 00:06:47:647 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-24 00:07:02:72 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-02-24 00:07:02:72 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-24 00:08:10:810 [32minfo[39m: [32mResponse Sent: [200] Budget updated successfully[39m
+2026-02-24 00:08:10:810 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-24 00:08:16:816 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-24 00:08:16:816 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-24 00:08:16:816 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-24 00:08:16:816 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-24 00:08:39:839 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-24 00:08:47:847 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-24 00:08:49:849 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-24 00:08:49:849 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-24 00:08:51:851 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-24 00:08:52:852 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-24 00:08:52:852 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-24 00:08:52:852 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-24 00:08:52:852 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-24 00:09:10:910 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-24 00:33:17:3317 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-24 00:33:18:3318 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-24 00:33:18:3318 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-24 00:33:18:3318 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-26 15:18:27:1827 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-26 15:18:28:1828 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-26 15:18:48:1848 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 15:18:48:1848 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-26 15:18:48:1848 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-26 15:18:56:1856 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-26 15:18:56:1856 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:18:56:1856 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-26 15:18:56:1856 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-26 15:18:58:1858 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-26 15:24:48:2448 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:24:50:2450 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 15:24:50:2450 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:24:55:2455 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-26 15:24:56:2456 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:24:57:2457 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:24:57:2457 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-26 15:25:23:2523 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:29:43:2943 [31merror[39m: [31mReferenceError: Category is not defined [39m
+[31mStack: ReferenceError: Category is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/transactionController.js:83:26[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-26 15:29:45:2945 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:29:45:2945 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 15:31:15:3115 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:31:15:3115 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 15:31:16:3116 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:31:41:3141 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-02-26 15:31:42:3142 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:31:46:3146 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:31:46:3146 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 15:31:46:3146 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:31:59:3159 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:31:59:3159 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 15:31:59:3159 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:34:43:3443 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-02-26 15:34:44:3444 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:35:03:353 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:35:03:353 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 15:35:03:353 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:38:33:3833 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-02-26 15:38:34:3834 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:39:19:3919 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-02-26 15:39:19:3919 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 15:53:43:5343 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-26 15:53:56:5356 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 15:53:56:5356 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-26 15:53:56:5356 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-26 15:53:56:5356 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-26 15:58:48:5848 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 15:58:48:5848 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-26 15:58:51:5851 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 15:58:52:5852 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 15:58:52:5852 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 15:58:53:5853 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 15:58:54:5854 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 15:59:01:591 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 15:59:02:592 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 15:59:02:592 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 15:59:03:593 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 16:00:21:021 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 16:00:21:021 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 16:00:25:025 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 16:00:26:026 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 16:00:29:029 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 16:00:30:030 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 16:00:38:038 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 16:00:38:038 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 16:00:41:041 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-02-26 16:00:41:041 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-02-26 16:07:06:76 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-02-26 16:07:07:77 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-02-26 16:20:24:2024 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-02-26 16:20:47:2047 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-02-26 16:21:36:2136 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-26 16:21:36:2136 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-26 16:21:36:2136 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 16:21:37:2137 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-26 16:21:37:2137 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-26 16:21:50:2150 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 16:21:50:2150 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 16:22:09:229 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-26 16:22:09:229 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-02-26 16:22:09:229 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-02-26 17:19:17:1917 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-02-26 17:19:43:1943 [32minfo[39m: [32mResponse Sent: [200] All marked as read[39m
+2026-02-26 17:19:43:1943 [32minfo[39m: [32mResponse Sent: [200] All marked as read[39m
+2026-02-26 17:19:43:1943 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-02-26 17:19:43:1943 [32minfo[39m: [32mResponse Sent: [200] All marked as read[39m
+2026-02-26 17:19:44:1944 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-02-26 17:19:46:1946 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-02-26 17:19:49:1949 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-02-26 17:19:53:1953 [32minfo[39m: [32mResponse Sent: [200] All marked as read[39m
+2026-02-26 17:19:53:1953 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-02-26 17:19:59:1959 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-26 17:20:01:201 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-26 17:20:01:201 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 17:20:02:202 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 17:20:02:202 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 17:20:04:204 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-26 17:20:04:204 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:20:04:204 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-26 17:20:04:204 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:28:29:2829 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-02-26 17:29:11:2911 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-26 17:29:11:2911 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:29:11:2911 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-26 17:29:11:2911 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:29:12:2912 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 17:29:16:2916 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-02-26 17:29:16:2916 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-02-26 17:29:18:2918 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-02-26 17:29:19:2919 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-26 17:29:19:2919 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:29:20:2920 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-02-26 17:29:20:2920 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-02-26 17:29:20:2920 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-02-26 17:29:21:2921 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-02-26 17:29:23:2923 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-02-26 17:29:27:2927 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-02-26 17:41:38:4138 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-26 17:41:38:4138 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:41:40:4140 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-02-26 17:41:40:4140 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:41:40:4140 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-02-26 17:41:44:4144 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-02-27 00:04:40:440 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-02-27 00:13:30:1330 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-02-27 23:27:33:2733 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-02-28 00:22:39:2239 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-09 21:57:18:5718 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 21:57:18:5718 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 21:57:34:5734 [33mwarn[39m: [33mBadRequest: User already registered[39m
+2026-03-09 21:57:34:5734 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:100:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 21:58:09:589 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 21:58:09:589 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 22:01:11:111 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 22:01:11:111 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 22:03:16:316 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 22:03:16:316 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 22:05:39:539 [32minfo[39m: [32mResponse Sent: [201] User registered successfully[39m
+2026-03-09 22:06:06:66 [32minfo[39m: [32mResponse Sent: [201] User registered successfully[39m
+2026-03-09 22:06:29:629 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-09 22:06:30:630 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m

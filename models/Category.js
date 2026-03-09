@@ -17,7 +17,7 @@ export default (sequelize) => {
     },
     name: { 
       type: DataTypes.STRING, 
-      allowNull: false 
+      allowNull: false ,
     },
     type: { 
       type: DataTypes.ENUM('income', 'expense'), 
@@ -51,7 +51,20 @@ export default (sequelize) => {
     modelName: "Category",
     tableName: "categories",
     underscored: true,
-    timestamps: true
+    timestamps: true,
+    paranoid: true,
+    // indexes: [
+    //   {
+    //     unique: true,
+    //     name: 'unique_active_category_per_user',
+    //     // We only check name + userId + type
+    //     fields: ['user_id', 'name', 'type'],
+    //     // ✅ The "Partial Index" trick: Ignore rows where deleted_at is not null
+    //     where: {
+    //       deleted_at: null
+    //     }
+    //   }
+    // ]
   });
 
   return Category;

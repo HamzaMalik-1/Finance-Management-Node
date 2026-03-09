@@ -847,3 +847,665 @@
 [31mStack: UnauthorizedError: Invalid token or session expired.[39m
 [31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
 [31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-14 14:08:54:854 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-14 14:46:04:464 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-14 14:46:04:464 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-14 14:47:05:475 [31merror[39m: [31mTypeError: AccountTypeController.findAll is not a function [39m
+[31mStack: TypeError: AccountTypeController.findAll is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/constantController.js:51:54[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:291:5)[39m
+2026-02-14 23:58:11:5811 [31merror[39m: [31mTypeError: Spread syntax requires ...iterable[Symbol.iterator] to be a function [39m
+[31mStack: TypeError: Spread syntax requires ...iterable[Symbol.iterator] to be a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:59:12[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:04:41:441 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type uuid: "undefined" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Account.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Account.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async BaseController.softDelete (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:99:20)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:81:5[39m
+2026-02-15 00:43:36:4336 [31merror[39m: [31mTypeError: AccountController.update is not a function [39m
+[31mStack: TypeError: AccountController.update is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:72:52[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-15 00:43:50:4350 [31merror[39m: [31mTypeError: AccountController.update is not a function [39m
+[31mStack: TypeError: AccountController.update is not a function[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:72:52[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-15 00:57:56:5756 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:57:56:5756 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:59:42:5942 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:59:42:5942 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-15 00:59:42:5942 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-16 08:26:47:2647 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 08:26:47:2647 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 08:41:57:4157 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 08:41:57:4157 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 10:36:27:3627 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 10:36:27:3627 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:23:34:2334 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:23:34:2334 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:33:46:3346 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:33:46:3346 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:43:33:4333 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 17:43:33:4333 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-16 18:18:29:1829 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:19[39m
+2026-02-16 18:23:20:2320 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:19[39m
+2026-02-16 18:24:09:249 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:19[39m
+2026-02-16 18:31:27:3127 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:112:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:3[39m
+2026-02-16 18:38:34:3834 [31merror[39m: [31mSequelizeDatabaseError: column "deleted_at" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Category.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Category.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async BaseController.delete (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:127:20)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:32:3[39m
+2026-02-16 18:41:31:4131 [31merror[39m: [31mNotFoundError: errors.not_found [39m
+[31mStack: NotFoundError: errors.not_found[39m
+[31m    at BaseController.delete (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:129:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:32:3[39m
+2026-02-16 18:46:01:461 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:49:33:4933 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:49:35:4935 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:52:37:5237 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:54:52:5452 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:55:06:556 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-16 18:56:44:5644 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 16:46:30:4630 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:118:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 16:52:15:5215 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 16:53:52:5352 [31merror[39m: [31mAlreadyExist: errors.already_exists [39m
+[31mStack: AlreadyExist: errors.already_exists[39m
+[31m    at BaseController.alreadyExist (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:115:13)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:14:2[39m
+2026-02-17 16:55:19:5519 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 17:01:25:125 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 17:01:54:154 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 17:01:57:157 [31merror[39m: [31mSequelizeUniqueConstraintError: Validation error [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.insert (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)[39m
+[31m    at async Category.save (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2490:35)[39m
+[31m    at async Category.create (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1362:12)[39m
+[31m    at async BaseController.create (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:121:19)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:15:20[39m
+2026-02-17 18:03:59:359 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-17 18:03:59:359 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-17 18:08:38:838 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-17 18:08:38:838 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 16:14:26:1426 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-20 16:14:46:1446 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-20 17:49:47:4947 [31merror[39m: [31mBadRequestError: errors.validation_error [39m
+[31mStack: BadRequestError: errors.validation_error[39m
+[31m    at BaseController.requireFields (file:///E:/Self%20Project/Finance-Management-System/node-server/bases/BaseController.js:27:13)[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/categoryController.js:11:22[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at processParams (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:582:12)[39m
+2026-02-20 19:48:32:4832 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 19:48:32:4832 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:15:10:1510 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:15:10:1510 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:19:03:193 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 20:19:03:193 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 21:02:59:259 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:59:19[39m
+2026-02-20 21:03:53:353 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:59:19[39m
+2026-02-20 21:10:27:1027 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:44:16[39m
+2026-02-20 21:10:34:1034 [31merror[39m: [31mSequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account). [39m
+[31mStack: SequelizeEagerLoadingError: Account is associated to Debt using an alias. You've included an alias (Account), but it does not match the alias(es) defined in your association (account).[39m
+[31m    at Debt._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at Debt._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Debt._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:44:16[39m
+2026-02-20 21:36:56:3656 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-20 21:42:13:4213 [31merror[39m: [31mReferenceError: Transaction is not defined [39m
+[31mStack: ReferenceError: Transaction is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:126:24[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-20 22:04:54:454 [31merror[39m: [31mReferenceError: Op is not defined [39m
+[31mStack: ReferenceError: Op is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:186:33[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-20 22:04:54:454 [31merror[39m: [31mReferenceError: Op is not defined [39m
+[31mStack: ReferenceError: Op is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:186:33[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-20 22:21:12:2112 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type uuid: "undefined" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:25:22[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:23:20[39m
+2026-02-20 22:21:22:2122 [31merror[39m: [31mSequelizeDatabaseError: invalid input syntax for type uuid: "undefined" [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Debt.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async Debt.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async Debt.findByPk (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1221:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:25:22[39m
+[31m    at async E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:507:18[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:23:20[39m
+2026-02-21 02:49:58:4958 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 02:49:58:4958 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 02:56:37:5637 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 02:56:56:5656 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 13:15:13:1513 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 13:15:13:1513 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-21 13:15:13:1513 [31merror[39m: [31mSequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com [39m
+[31mStack: SequelizeHostNotFoundError: getaddrinfo ENOTFOUND aws-1-ap-south-1.pooler.supabase.com[39m
+[31m    at Client._connectionCallback (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:136:24)[39m
+[31m    at Client._handleErrorWhileConnecting (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:376:19)[39m
+[31m    at Client._handleErrorEvent (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\client.js:386:19)[39m
+[31m    at Connection.emit (node:events:518:28)[39m
+[31m    at Socket.reportStreamError (E:\Self Project\Finance-Management-System\node-server\node_modules\pg\lib\connection.js:56:12)[39m
+[31m    at Socket.emit (node:events:518:28)[39m
+[31m    at emitErrorNT (node:internal/streams/destroy:170:8)[39m
+[31m    at emitErrorCloseNT (node:internal/streams/destroy:129:3)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m
+2026-02-24 00:33:18:3318 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 15:24:48:2448 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:24:56:2456 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:24:57:2457 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:25:23:2523 [31merror[39m: [31mError: Association with alias "Category" does not exist on Transaction [39m
+[31mStack: Error: Association with alias "Category" does not exist on Transaction[39m
+[31m    at Transaction._transformStringAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:275:15)[39m
+[31m    at Transaction._conformInclude (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:286:22)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:61[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at Transaction._conformIncludes (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:270:39)[39m
+[31m    at Transaction._baseMerge (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:622:10)[39m
+[31m    at Transaction._defaultsOptions (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:656:17)[39m
+[31m    at Transaction._injectScope (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:2053:10)[39m
+[31m    at Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1111:10)[39m
+[31m    at Transaction.findAndCountAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1324:12)[39m
+2026-02-26 15:29:43:2943 [31merror[39m: [31mReferenceError: Category is not defined [39m
+[31mStack: ReferenceError: Category is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/transactionController.js:83:26[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-02-26 17:20:04:204 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:20:04:204 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:29:11:2911 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:29:11:2911 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:29:19:2919 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:41:38:4138 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-02-26 17:41:40:4140 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 21:57:18:5718 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 21:57:18:5718 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 21:57:34:5734 [31merror[39m: [31mBadRequestError: User already registered [39m
+[31mStack: BadRequestError: User already registered[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:100:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 21:58:09:589 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 21:58:09:589 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 22:01:11:111 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 22:01:11:111 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-09 22:03:16:316 [31merror[39m: [31mInternalServer: Role assignment failed. Signup rolled back.[39m
+2026-03-09 22:03:16:316 [31merror[39m: [31mInternalServerError: Role assignment failed. Signup rolled back. [39m
+[31mStack: InternalServerError: Role assignment failed. Signup rolled back.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:118:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m

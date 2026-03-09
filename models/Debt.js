@@ -63,20 +63,52 @@ export default (sequelize) => {
     paranoid: true
   });
 
-Debt.addHook('afterCreate', async (debt, options) => {
-  const { Transaction } = debt.sequelize.models;
+  // --- HOOK 1: Status Management (Runs BEFORE validation) ---
+  Debt.addHook('beforeValidate', (debt, options) => {
+    const principal = parseFloat(debt.amount || 0);
+    const remaining = parseFloat(debt.remainingAmount || 0);
 
-  
-  await Transaction.create({
-    userId: debt.userId,
-    accountId: debt.accountId,
-    debtId: debt.id, // Link them
-    amount: debt.amount,
-    type: debt.type === 'borrowed' ? 'income' : 'expense',
-    description: `Initial entry for debt: ${debt.description || debt.type}`,
-    transactionDate: new Date(),
-    status: 'completed'
-  }, { transaction: options.transaction });
-});
+    if (debt.isNewRecord) {
+      // Logic Fix: Ensure initial remainingAmount matches principal
+      if (debt.remainingAmount === undefined || debt.remainingAmount === null) {
+        debt.remainingAmount = principal;
+      }
+      
+      // Force Active status on creation
+      debt.status = 'active';
+      return; 
+    }
+
+    // Logic for updates (Actual Repayments)
+    if (debt.changed('remainingAmount')) {
+      if (remaining <= 0) {
+        debt.status = 'settled';
+        debt.remainingAmount = 0; 
+      } else if (remaining < principal) {
+        debt.status = 'partially_paid';
+      } else {
+        debt.status = 'active';
+      }
+    }
+  });
+
+  // --- HOOK 2: Ledger Entry (Runs AFTER successful creation) ---
+  Debt.addHook('afterCreate', async (debt, options) => {
+    const { Transaction } = debt.sequelize.models;
+
+    await Transaction.create({
+      userId: debt.userId,
+      accountId: debt.accountId,
+      debtId: debt.id,
+      amount: debt.amount,
+      type: debt.type === 'borrowed' ? 'income' : 'expense',
+      // 🛑 CRITICAL FIX: The description MUST contain '[Initial]' 
+      // This tells the Transaction hook NOT to treat this as a repayment.
+      description: `[Initial] entry for debt: ${debt.description || debt.type}`,
+      transactionDate: new Date(),
+      status: 'completed'
+    }, { transaction: options.transaction });
+  });
+
   return Debt;
 };

@@ -1,5 +1,5 @@
 import { StatusCodes } from "http-status-codes";
-import { Transaction } from "../../models/index.js";
+import { Account, Category, Transaction } from "../../models/index.js";
 import {sequelize} from "../../config/db.js"
 import asyncHandler from "../../utils/AsyncHelper/Async.js";
 import BaseController from "../../bases/BaseController.js";
@@ -73,12 +73,16 @@ export const getUserTransactions = asyncHandler(async (req, res) => {
 
     const transactions = await TransactionController.getAllOrPaginated(
         { userId },
-        { 
+      { 
             paginate: true, 
             page, 
             limit,
-            // Include related models for a better frontend view
-            include: ['Category', 'Account'] 
+            // ✅ FIX: Use 'category' instead of 'Category'
+            // ✅ FIX: Use 'sourceAccount' or 'destinationAccount' instead of 'Account'
+            include: [
+                { model: Category, as: 'category' },
+                { model: Account, as: 'sourceAccount' }
+            ] 
         }
     );
 

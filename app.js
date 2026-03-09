@@ -31,6 +31,11 @@ import v1BudgetRouter from "./routes/v1/budgetRoutes.js";
 import v1TransactionRouter from "./routes/v1/transactionRoutes.js";
 import v1DebtRouter from "./routes/v1/debtRoutes.js";
 import v1ConstantRouter from "./routes/v1/constantRoutes.js";
+import v1CategoryRouter from "./routes/v1/categoryRoutes.js";
+import v1ContactRouter from './routes/v1/contactRoutes.js';
+import v1NotificationRouter from './routes/v1/notificationRoutes.js';
+import v1DashboardRouter from './routes/v1/dashboardRoutes.js';
+
 // app.get('/', async (req, res, next) => {
 //   try {
 //     throw new InternalServerError("Something went wrong on the server.");
@@ -60,8 +65,13 @@ app.use("/api/v1/user", v1UserRouter);
 app.use("/api/v1/user-account", v1AccountRouter);
 app.use("/api/v1/budget", v1BudgetRouter);
 app.use("/api/v1/transaction", v1TransactionRouter);
-app.use("/api/v1/dept", v1DebtRouter);
+app.use("/api/v1/debt", v1DebtRouter);
 app.use("/api/v1/constant", v1ConstantRouter);
+app.use("/api/v1/category", v1CategoryRouter);
+app.use("/api/v1/contacts", v1ContactRouter);
+app.use("/api/v1/notification", v1NotificationRouter);
+app.use("/api/v1/dashboard", v1DashboardRouter);
+
 // Routes
 app.get("/", (req, res) => {
   res.send("Server is working!");

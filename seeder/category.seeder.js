@@ -1,5 +1,6 @@
 import { Category } from "../models/index.js";
 import logger from "../utils/logger.js";
+import resetSequence from "../utils/Model/resetSequence.js";
 
 const categories = [
   // --- PARENT INCOME CATEGORIES ---
@@ -50,6 +51,9 @@ const CategorySeeder = async () => {
     if (!changesMade) {
       logger.info("ℹ️ Categories are already up to date.");
     }
+
+await resetSequence(Category);
+
   } catch (error) {
     logger.error(`❌ Error seeding categories: ${error.message}`);
   }

@@ -1,5 +1,5 @@
 import BaseController from '../../bases/BaseController.js';
-import { Currency,Country,City } from '../../models/index.js';
+import { Currency,Country,City ,AccountType} from '../../models/index.js';
 import asyncHandler from '../../utils/AsyncHelper/Async.js';
 import ApiError from '../../utils/ErrorHelpers/ApiError.js';
 import sendResponse from '../../utils/ResponseHelpers/sendResponse.js';
@@ -7,6 +7,7 @@ import { StatusCodes } from 'http-status-codes';
 
 const CountryController =new BaseController(Country)
 const CityController =new BaseController(City)
+const AccountTypeController =new BaseController(AccountType)
 // Fetch all currencies for the settings dropdown
 export const getCurrencies = asyncHandler(async (req, res) => {
     const currencies = await Currency.findAll({
@@ -44,4 +45,22 @@ export const getCity = asyncHandler(async (req, res) => {
     });
 
     return sendResponse(res, StatusCodes.OK, "Cities fetched successfully", cities);
+});
+export const getAccountType = asyncHandler(async (req, res) => {
+    // Argument 1: Filter (where clause)
+    // Argument 2: Options (attributes, order, etc.)
+    const accountTypes = await AccountTypeController.getAllOrPaginated(
+        { isActive: true }, // ✅ Filter (Argument 1)
+        { 
+            attributes: ["id", "name", "slug"], // ✅ Options (Argument 2)
+            order: [["name", "ASC"]] 
+        }
+    );
+
+    return sendResponse(
+        res, 
+        StatusCodes.OK, 
+        "Account types fetched successfully", 
+        accountTypes
+    );
 });

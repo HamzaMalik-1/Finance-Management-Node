@@ -20,6 +20,7 @@ const sequelize = new Sequelize(database, username, password, {
       require: true,
       rejectUnauthorized: false 
     },
+    keepalived: true,
     keepAlive: true,
   },
   pool: {
@@ -27,7 +28,8 @@ const sequelize = new Sequelize(database, username, password, {
     min: 0,
     acquire: 60000, // Increased for remote cloud latency
     idle: 10000
-  }
+  },
+  logging: false,
 });
 
 
