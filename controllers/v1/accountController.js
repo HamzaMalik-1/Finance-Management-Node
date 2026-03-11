@@ -44,11 +44,20 @@ export const getUserAccounts = asyncHandler(async (req, res) => {
     }
 
     // 2. Fetch Data (Ensure you 'await' the result)
-    const accounts = await Account.findAll({
-        where: { userId },
-        order: [['createdAt', 'DESC']]
-    });
-
+ const accounts = await Account.findAll({
+    where: { userId },
+    order: [['createdAt', 'DESC']],
+    include: [
+        {
+            model: AccountType, // ✅ Include the related model
+            as: 'accountType'    // ✅ Must match the 'as' in your association
+        },
+        {
+            model: Currency,     // ✅ If you want to include currency too
+            as: 'currency' 
+        }
+    ]
+});
     // 3. Conditional Check (Optional: helps if you want to distinguish empty from error)
     if (!accounts || accounts.length === 0) {
         return sendResponse(res, StatusCodes.OK, "No accounts found for this user", []);
