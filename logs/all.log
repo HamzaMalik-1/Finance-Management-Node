@@ -3048,3 +3048,237 @@
 2026-03-11 09:55:57:5557 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
 2026-03-11 10:08:59:859 [32minfo[39m: [32mResponse Sent: [201] Account created successfully[39m
 2026-03-11 10:08:59:859 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 10:31:27:3127 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:31:27:3127 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-11 10:31:32:3132 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-11 10:31:40:3140 [32minfo[39m: [32mResponse Sent: [200] Account deleted successfully[39m
+2026-03-11 10:31:41:3141 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 10:31:44:3144 [32minfo[39m: [32mResponse Sent: [200] Account deleted successfully[39m
+2026-03-11 10:31:44:3144 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 10:31:47:3147 [32minfo[39m: [32mResponse Sent: [200] Account deleted successfully[39m
+2026-03-11 10:31:47:3147 [32minfo[39m: [32mResponse Sent: [200] No accounts found for this user[39m
+2026-03-11 10:31:59:3159 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:32:32:3232 [32minfo[39m: [32mResponse Sent: [201] Account created successfully[39m
+2026-03-11 10:34:50:3450 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-03-11 10:34:50:3450 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 10:34:50:3450 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-03-11 10:34:50:3450 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 10:34:50:3450 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 10:37:25:3725 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-11 10:37:33:3733 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-11 10:37:42:3742 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 10:37:46:3746 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-11 10:37:48:3748 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:37:48:3748 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-11 10:37:49:3749 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 10:37:49:3749 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-11 10:39:16:3916 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:39:19:3919 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:39:23:3923 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:39:26:3926 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:39:28:3928 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:39:29:3929 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 10:39:29:3929 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 10:40:30:4030 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 10:40:30:4030 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-11 10:42:17:4217 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:42:18:4218 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:42:18:4218 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 10:42:27:4227 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:42:27:4227 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:42:29:4229 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 10:46:48:4648 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:46:48:4648 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:46:50:4650 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 10:46:51:4651 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 10:46:51:4651 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 10:46:52:4652 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:00:31:031 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:00:31:031 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:00:31:031 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:05:46:546 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:05:46:546 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:05:46:546 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:06:07:67 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:06:07:67 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:06:07:67 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:08:07:87 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-03-11 11:08:08:88 [32minfo[39m: [32m🔄 Updated Category: Salary[39m
+2026-03-11 11:08:08:88 [32minfo[39m: [32m🔄 Updated Category: Freelance[39m
+2026-03-11 11:08:10:810 [31merror[39m: [31m❌ Error seeding categories: Validation error[39m
+2026-03-11 11:08:10:810 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-03-11 11:08:15:815 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-03-11 11:08:15:815 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-03-11 11:08:18:818 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-03-11 11:09:21:921 [32minfo[39m: [32m🌱 Seeding System Categories...[39m
+2026-03-11 11:09:24:924 [31merror[39m: [31m❌ Error seeding categories: Validation error[39m
+2026-03-11 11:09:24:924 [32minfo[39m: [32m🌱 Seeding Currencies...[39m
+2026-03-11 11:09:27:927 [32minfo[39m: [32mℹ️ Currencies are already up to date.[39m
+2026-03-11 11:09:27:927 [32minfo[39m: [32m🌱 Seeding Account Types...[39m
+2026-03-11 11:09:30:930 [32minfo[39m: [32mℹ️ Account Types are already up to date.[39m
+2026-03-11 11:09:36:936 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-03-11 11:09:38:938 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-11 11:09:40:940 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:16:03:163 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:16:04:164 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:16:04:164 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:17:49:1749 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:17:49:1749 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:17:50:1750 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:19:02:192 [31merror[39m: [31mError: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' } [39m
+[31mStack: Error: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' }[39m
+[31m    at Object.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sql-string.js:54:11)[39m
+[31m    at PostgresQueryGenerator.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:766:22)[39m
+[31m    at PostgresQueryGenerator._whereParseSingleValueObject (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2060:41)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1818:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:40[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at PostgresQueryGenerator._whereBind (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:21)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1796:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+2026-03-11 11:19:02:192 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:19:02:192 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:19:22:1922 [31merror[39m: [31mError: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' } [39m
+[31mStack: Error: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' }[39m
+[31m    at Object.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sql-string.js:54:11)[39m
+[31m    at PostgresQueryGenerator.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:766:22)[39m
+[31m    at PostgresQueryGenerator._whereParseSingleValueObject (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2060:41)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1818:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:40[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at PostgresQueryGenerator._whereBind (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:21)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1796:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+2026-03-11 11:19:23:1923 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:19:23:1923 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:20:48:2048 [31merror[39m: [31mError: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' } [39m
+[31mStack: Error: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' }[39m
+[31m    at Object.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sql-string.js:54:11)[39m
+[31m    at PostgresQueryGenerator.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:766:22)[39m
+[31m    at PostgresQueryGenerator._whereParseSingleValueObject (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2060:41)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1818:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:40[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at PostgresQueryGenerator._whereBind (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:21)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1796:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+2026-03-11 11:20:49:2049 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:20:49:2049 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:25:23:2523 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:25:23:2523 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:25:23:2523 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:27:18:2718 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-11 11:28:14:2814 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-03-11 11:28:14:2814 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-11 11:28:17:2817 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:28:40:2840 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-11 11:28:40:2840 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-11 11:28:40:2840 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-11 11:28:40:2840 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 11:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-11 11:29:52:2952 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-03-11 11:29:53:2953 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-11 11:29:55:2955 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:32:16:3216 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 11:32:19:3219 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-11 11:32:21:3221 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-11 11:35:43:3543 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:35:43:3543 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 11:35:44:3544 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 11:53:46:5346 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-03-11 11:53:46:5346 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 11:53:47:5347 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 11:53:47:5347 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:05:43:543 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-11 12:05:44:544 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-11 12:07:21:721 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 12:07:27:727 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-03-11 12:07:27:727 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at runNextTicks (node:internal/process/task_queues:69:3)[39m
+[31m    at process.processImmediate (node:internal/timers:453:9)[39m
+2026-03-11 12:07:27:727 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-03-11 12:07:27:727 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 12:07:28:728 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-11 12:07:52:752 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-03-11 12:07:52:752 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 12:12:48:1248 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-11 12:12:49:1249 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-11 12:12:50:1250 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-11 12:12:54:1254 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 12:12:54:1254 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:12:55:1255 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-11 12:15:06:156 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 12:15:06:156 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-11 12:15:08:158 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:17:27:1727 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 12:17:27:1727 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:17:30:1730 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:18:56:1856 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-03-11 12:18:59:1859 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:29:34:2934 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-03-11 12:29:36:2936 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:32:50:3250 [32minfo[39m: [32mResponse Sent: [201] Budget created successfully[39m
+2026-03-11 12:32:50:3250 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:44:52:4452 [32minfo[39m: [32mResponse Sent: [200] Budget updated successfully[39m
+2026-03-11 12:44:52:4452 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:45:06:456 [32minfo[39m: [32mResponse Sent: [200] Budget updated successfully[39m
+2026-03-11 12:45:07:457 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:45:20:4520 [32minfo[39m: [32mResponse Sent: [200] Budget removed successfully[39m
+2026-03-11 12:45:20:4520 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:47:52:4752 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 12:47:52:4752 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:47:52:4752 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:48:21:4821 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 12:48:21:4821 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:48:23:4823 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 12:48:23:4823 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:48:24:4824 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:48:24:4824 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:51:25:5125 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 12:51:25:5125 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:51:25:5125 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:52:20:5220 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 12:52:20:5220 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:52:21:5221 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:53:05:535 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 12:53:05:535 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 12:53:05:535 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 13:08:02:82 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 13:08:03:83 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 13:08:03:83 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 13:08:12:812 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 13:08:12:812 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 13:08:13:813 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 13:08:15:815 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 13:08:15:815 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 13:08:15:815 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 13:10:37:1037 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-11 13:10:37:1037 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-11 13:10:37:1037 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-11 13:10:59:1059 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-11 13:10:59:1059 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-11 13:10:59:1059 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-11 13:10:59:1059 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-11 13:11:00:110 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-11 13:11:26:1126 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m

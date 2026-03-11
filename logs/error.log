@@ -1684,3 +1684,67 @@
 [31m    at Account.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
 [31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
 [31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:47:22[39m
+2026-03-11 10:34:50:3450 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 10:34:50:3450 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 11:08:10:810 [31merror[39m: [31m❌ Error seeding categories: Validation error[39m
+2026-03-11 11:09:24:924 [31merror[39m: [31m❌ Error seeding categories: Validation error[39m
+2026-03-11 11:19:02:192 [31merror[39m: [31mError: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' } [39m
+[31mStack: Error: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' }[39m
+[31m    at Object.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sql-string.js:54:11)[39m
+[31m    at PostgresQueryGenerator.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:766:22)[39m
+[31m    at PostgresQueryGenerator._whereParseSingleValueObject (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2060:41)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1818:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:40[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at PostgresQueryGenerator._whereBind (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:21)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1796:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+2026-03-11 11:19:22:1922 [31merror[39m: [31mError: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' } [39m
+[31mStack: Error: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' }[39m
+[31m    at Object.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sql-string.js:54:11)[39m
+[31m    at PostgresQueryGenerator.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:766:22)[39m
+[31m    at PostgresQueryGenerator._whereParseSingleValueObject (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2060:41)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1818:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:40[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at PostgresQueryGenerator._whereBind (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:21)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1796:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+2026-03-11 11:20:48:2048 [31merror[39m: [31mError: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' } [39m
+[31mStack: Error: Invalid value { user_id: 'df5abd3e-4896-46f2-8d4d-975a2aabe564' }[39m
+[31m    at Object.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sql-string.js:54:11)[39m
+[31m    at PostgresQueryGenerator.escape (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:766:22)[39m
+[31m    at PostgresQueryGenerator._whereParseSingleValueObject (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2060:41)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1818:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:40[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at PostgresQueryGenerator._whereBind (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1865:21)[39m
+[31m    at PostgresQueryGenerator.whereItemQuery (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1796:19)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1737:25[39m
+[31m    at Array.forEach (<anonymous>)[39m
+2026-03-11 11:53:46:5346 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 12:07:27:727 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at runNextTicks (node:internal/process/task_queues:69:3)[39m
+[31m    at process.processImmediate (node:internal/timers:453:9)[39m
+2026-03-11 12:07:27:727 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-11 12:07:52:752 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m

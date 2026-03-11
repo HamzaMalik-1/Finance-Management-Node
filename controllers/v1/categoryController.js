@@ -3,6 +3,7 @@ import BaseController from "../../bases/BaseController.js";
 import { Category } from "../../models/index.js";
 import asyncHandler from "../../utils/AsyncHelper/Async.js";
 import sendResponse from "../../utils/ResponseHelpers/sendResponse.js";
+import { Op } from 'sequelize'; // Ensure Op is imported
 
 const CategoryController = new BaseController(Category);
 export const createCategory = asyncHandler(async (req, res) => {
@@ -43,7 +44,23 @@ export const getAllCategories = asyncHandler(async (req, res) => {
 
   const { userId } = req.params;
 
-  const categories = await CategoryController.getAllOrPaginated({ userId });
+  // ✅ Pass ONLY the conditions. 
+  // The Base method will put these inside the 'where' block for you.
+  const filter = {
+    [Op.or]: [
+      { userId: userId },
+      { isDefault: true }
+    ],
+    isActive: true
+  };
+
+  // ✅ Pass filter as 1st arg, options (like order) as 2nd arg
+  const categories = await CategoryController.getAllOrPaginated(filter, {
+    order: [
+      ['isDefault', 'DESC'], 
+      ['name', 'ASC']
+    ]
+  });
 
   sendResponse(res, StatusCodes.OK, "category.find", categories);
 });
@@ -80,10 +97,6 @@ export const getCategoryTree = asyncHandler(async (req, res) => {
   );
   sendResponse(res, StatusCodes.OK, "category.tree_found", categories);
 });
-
-
-// controllers/v1/categoryController.js
-// controllers/v1/categoryController.js
 
 export const updateCategory = asyncHandler(async (req, res) => {
   CategoryController.paramsExist(req.params);
