@@ -1,4 +1,4 @@
-import { Debt, Contact, Account, Transaction } from "../../models/index.js";
+import { Debt, Contact, Account, Transaction, UserSettings, Currency } from "../../models/index.js";
 import BaseController from "../../bases/BaseController.js";
 import asyncHandler from "../../utils/AsyncHelper/Async.js";
 import sendResponse from "../../utils/ResponseHelpers/sendResponse.js";
@@ -147,59 +147,88 @@ export const getUserDebts = asyncHandler(async (req, res) => {
 
     return sendResponse(res, StatusCodes.OK, "debt.fetched_success", detailedDebts);
 });
-
 export const getDebtSummary = asyncHandler(async (req, res) => {
-    const { userId } = req.params;
+  const { userId } = req.params;
 
-    const summary = await Debt.findAll({
-        where: { 
-            userId, 
-            status: ['active', 'settled'] 
-        },
-        attributes: [
-            'type',
-            [
-                sequelize.fn('COALESCE', 
-                    // Change 'remaining_amount' to 'amount' to see the total recorded value
-                    sequelize.fn('SUM', sequelize.cast(sequelize.col('amount'), 'DECIMAL')), 
-                    0
-                ), 
-                'totalAmount'
-            ]
-        ],
-        group: ['type'],
-        raw: true
-    });
+  // 1. Fetch User Settings using the correct 'currency' alias
+  const userSettings = await UserSettings.findOne({
+    where: { userId },
+    include: [{ 
+      model: Currency, 
+      as: 'currency', // ✅ Matches your association alias
+      attributes: ['symbol'] 
+    }]
+  });
 
-    return sendResponse(res, StatusCodes.OK, "debt.summary_success", summary || []);
+  // Access the symbol via the correct alias property
+  const currencySymbol = userSettings?.currency?.symbol || '$';
+
+  // 2. Aggregate the debt totals
+  const summaryList = await Debt.findAll({
+    where: { 
+      userId, 
+      status: ['active', 'settled'] 
+    },
+    attributes: [
+      'type',
+      [
+        sequelize.fn('COALESCE', 
+          sequelize.fn('SUM', sequelize.cast(sequelize.col('amount'), 'DECIMAL')), 
+          0
+        ), 
+        'totalAmount'
+      ]
+    ],
+    group: ['type'],
+    raw: true
+  });
+
+  // 3. Use sendResponse utility
+  return sendResponse(res, StatusCodes.OK, "debt.summary_success", {
+    list: summaryList || [],
+    currencySymbol
+  });
 });
-
 // Add getDebtDetails to your exports in deptController.js
 
 export const getDebtDetails = asyncHandler(async (req, res) => {
     const { id } = req.params;
 
- const debt = await Debt.findByPk(id, {
-    include: [
-        { model: Contact, as: 'contactPerson' },
-        { 
-            model: Transaction, 
-            as: 'repayments',
-            where: { 
-                // 🛑 FILTER: Don't show the 'Initial entry' in the payment timeline
-                description: { [Op.notLike]: '%Initial entry%' } 
+    // 1. Fetch Debt with standard includes
+    const debt = await Debt.findByPk(id, {
+        include: [
+            { model: Contact, as: 'contactPerson' },
+            { 
+                model: Transaction, 
+                as: 'repayments',
+                where: { 
+                    description: { [Op.notLike]: '%Initial entry%' } 
+                },
+                required: false, 
+                include: [{ model: Account, as: 'sourceAccount' }] 
             },
-            required: false, // Don't hide the debt if there are no payments yet
-            include: [{ model: Account, as: 'sourceAccount' }] 
-        }
-    ]
-});
+            { model: Account, as: 'account' } // Ensure primary account is included
+        ]
+    });
 
     if (!debt) {
         return sendResponse(res, StatusCodes.NOT_FOUND, "debt.not_found");
     }
 
-    // Apply the same math logic as getUserDebts
+    // 2. Fetch User Settings to get the dynamic currency symbol
+    // We use the userId from the debt record
+    const userSettings = await UserSettings.findOne({
+        where: { userId: debt.userId },
+        include: [{ 
+            model: Currency, 
+            as: 'currency', // ✅ Correct alias from your association
+            attributes: ['symbol'] 
+        }]
+    });
+
+    const currencySymbol = userSettings?.currency?.symbol || '$';
+
+    // 3. Math Logic
     const d = debt.get({ plain: true });
     const principal = parseFloat(d.amount || 0);
     const rate = parseFloat(d.interestRate || 0);
@@ -208,8 +237,10 @@ export const getDebtDetails = asyncHandler(async (req, res) => {
     const interest = (principal * rate) / 100; 
     const totalObligation = principal + interest;
 
+    // 4. Construct Final Object with Symbol
     const detailedDebt = {
         ...d,
+        currencySymbol, // ✅ Dynamic symbol included
         interestAmount: interest,
         totalObligation: totalObligation,
         remainingWithInterest: totalObligation - (principal - remaining)

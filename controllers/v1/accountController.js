@@ -1,5 +1,5 @@
 // controllers/v1/accountController.js
-import { Account, AccountType, Currency } from '../../models/index.js';
+import { Account, AccountType, Currency, UserSettings } from '../../models/index.js';
 import BaseController from '../../bases/BaseController.js';
 import asyncHandler from '../../utils/AsyncHelper/Async.js';
 import sendResponse from '../../utils/ResponseHelpers/sendResponse.js';
@@ -43,32 +43,44 @@ export const getUserAccounts = asyncHandler(async (req, res) => {
         return sendResponse(res, StatusCodes.BAD_REQUEST, "User ID is required");
     }
 
-    // 2. Fetch Data (Ensure you 'await' the result)
- const accounts = await Account.findAll({
-    where: { userId },
-    order: [['createdAt', 'DESC']],
-    include: [
-        {
-            model: AccountType, // ✅ Include the related model
-            as: 'accountType'    // ✅ Must match the 'as' in your association
-        },
-        {
-            model: Currency,     // ✅ If you want to include currency too
-            as: 'currency' 
-        }
-    ]
-});
-    // 3. Conditional Check (Optional: helps if you want to distinguish empty from error)
-    if (!accounts || accounts.length === 0) {
-        return sendResponse(res, StatusCodes.OK, "No accounts found for this user", []);
-    }
+    // 2. Fetch User Settings for the global currency symbol
+    const userSettings = await UserSettings.findOne({
+        where: { userId },
+        include: [{ 
+            model: Currency, 
+            as: 'currency', // Matches your association alias
+            attributes: ['symbol'] 
+        }]
+    });
 
-    // 4. Send Response (Pass the 'accounts' array into the data field)
+    const globalCurrencySymbol = userSettings?.currency?.symbol || '$';
+
+    // 3. Fetch Data
+    const accounts = await Account.findAll({
+        where: { userId },
+        order: [['createdAt', 'DESC']],
+        include: [
+            {
+                model: AccountType,
+                as: 'accountType'
+            },
+            {
+                model: Currency,
+                as: 'currency' 
+            }
+        ]
+    });
+
+    // 4. Send Response
+    // We send an object containing the list and the global symbol metadata
     return sendResponse(
         res, 
         StatusCodes.OK, 
         "Accounts fetched successfully", 
-        accounts // ✅ This ensures "data" is not null
+        {
+            list: accounts || [],
+            globalCurrencySymbol // ✅ The user's base currency symbol
+        }
     );
 });
 /**

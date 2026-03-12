@@ -3463,3 +3463,250 @@
 2026-03-13 00:56:02:562 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
 2026-03-13 00:56:02:562 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
 2026-03-13 00:56:02:562 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 00:57:52:5752 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 00:57:52:5752 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 00:57:53:5753 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 00:57:53:5753 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 00:58:12:5812 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 00:58:17:5817 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-03-13 00:58:17:5817 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 00:58:32:5832 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 00:58:32:5832 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 00:58:34:5834 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 00:58:40:5840 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-03-13 00:58:40:5840 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 00:58:56:5856 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 00:59:52:5952 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:00:00:00 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:03:47:347 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-03-13 01:03:50:350 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:05:00:50 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 01:05:01:51 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 01:05:49:549 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:05:50:550 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 01:08:01:81 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-03-13 01:08:02:82 [32minfo[39m: [32mResponse Sent: [200] Marked as read[39m
+2026-03-13 01:08:04:84 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:16:34:1634 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:17:28:1728 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:17:37:1737 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:18:45:1845 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:18:48:1848 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 01:18:48:1848 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-13 01:18:49:1849 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 01:18:52:1852 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 01:18:52:1852 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 01:18:52:1852 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 01:18:52:1852 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 01:19:37:1937 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 01:39:24:3924 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 01:39:24:3924 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 01:39:24:3924 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 01:39:25:3925 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 01:40:09:409 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:41:25:4125 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:41:46:4146 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:42:49:4249 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:43:06:436 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:43:08:438 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:43:10:4310 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:45:43:4543 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:45:43:4543 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:45:54:4554 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:47:00:470 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-03-13 01:47:00:470 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 01:48:36:4836 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:49:07:497 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:49:11:4911 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-03-13 01:49:13:4913 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 01:49:40:4940 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-03-13 01:49:41:4941 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-03-13 01:49:41:4941 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-03-13 01:51:05:515 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:51:15:5115 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:51:17:5117 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-03-13 01:51:18:5118 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 01:52:28:5228 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:54:09:549 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:54:33:5433 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:55:31:5531 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:56:25:5625 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:57:22:5722 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:57:23:5723 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 01:57:37:5737 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-03-13 01:57:37:5737 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 01:58:05:585 [32minfo[39m: [32mResponse Sent: [200] User settings updated successfully[39m
+2026-03-13 01:58:06:586 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-03-13 01:58:39:5839 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 01:58:41:5841 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-13 01:58:42:5842 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 01:58:42:5842 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 01:58:42:5842 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 01:58:43:5843 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 01:58:43:5843 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 01:58:43:5843 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-13 01:58:47:5847 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 02:00:15:015 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:00:15:015 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:00:15:015 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:00:15:015 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:00:23:023 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:00:23:023 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:00:23:023 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:00:23:023 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:00:24:024 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:00:24:024 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:00:24:024 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:00:24:024 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:06:25:625 [31merror[39m: [31mReferenceError: UserSetting is not defined [39m
+[31mStack: ReferenceError: UserSetting is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:154:24[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-03-13 02:06:27:627 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:06:27:627 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:06:27:627 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:06:52:652 [31merror[39m: [31mReferenceError: Currency is not defined [39m
+[31mStack: ReferenceError: Currency is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:157:14[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-03-13 02:06:52:652 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:06:52:652 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:06:52:652 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:07:06:76 [31merror[39m: [31mSequelizeEagerLoadingError: Currency is associated to UserSettings using an alias. You've included an alias (baseCurrency), but it does not match the alias(es) defined in your association (currency). [39m
+[31mStack: SequelizeEagerLoadingError: Currency is associated to UserSettings using an alias. You've included an alias (baseCurrency), but it does not match the alias(es) defined in your association (currency).[39m
+[31m    at UserSettings._getIncludedAssociation (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:574:15)[39m
+[31m    at UserSettings._validateIncludedElement (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:502:53)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:421:37[39m
+[31m    at Array.map (<anonymous>)[39m
+[31m    at UserSettings._validateIncludedElements (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:417:39)[39m
+[31m    at UserSettings.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1124:12)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async UserSettings.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:154:24[39m
+2026-03-13 02:07:06:76 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:07:07:77 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:07:07:77 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:07:57:757 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:07:57:757 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:07:57:757 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:07:57:757 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:08:30:830 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:09:15:915 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:09:15:915 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:09:15:915 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:09:15:915 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:09:18:918 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:09:18:918 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:09:18:918 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:09:18:918 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:09:32:932 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:09:32:932 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:09:32:932 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:09:33:933 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:09:33:933 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:09:33:933 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:09:33:933 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:09:33:933 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:16:16:1616 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:16:16:1616 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:16:16:1616 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:16:16:1616 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:16:26:1626 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:16:26:1626 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:16:26:1626 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:16:26:1626 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:24:38:2438 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:24:38:2438 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:24:38:2438 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:24:38:2438 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:24:57:2457 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:24:57:2457 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:24:57:2457 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:24:58:2458 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:25:44:2544 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:25:44:2544 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:25:44:2544 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:25:44:2544 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:26:05:265 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:26:05:265 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:26:05:265 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:26:06:266 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:26:42:2642 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:26:42:2642 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:26:42:2642 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:26:43:2643 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:26:49:2649 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:26:49:2649 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:26:49:2649 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:26:50:2650 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:27:10:2710 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:27:10:2710 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:27:10:2710 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:27:10:2710 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:29:46:2946 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:30:00:300 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:30:00:300 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:30:00:300 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:30:00:300 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:30:34:3034 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-03-13 02:30:35:3035 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:30:35:3035 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:31:16:3116 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:32:22:3222 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:32:30:3230 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:32:45:3245 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:35:24:3524 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:35:43:3543 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:38:57:3857 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:38:58:3858 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:42:54:4254 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:42:55:4255 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:44:52:4452 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:44:53:4453 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:45:53:4553 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:45:53:4553 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:45:53:4553 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:46:30:4630 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:46:30:4630 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:47:32:4732 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:47:39:4739 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:47:50:4750 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:48:06:486 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:48:07:487 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:49:19:4919 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:49:20:4920 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:50:18:5018 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:50:18:5018 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:52:01:521 [32minfo[39m: [32mResponse Sent: [200] Repayment recorded successfully[39m
+2026-03-13 02:52:01:521 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:52:19:5219 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:52:20:5220 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:52:39:5239 [32minfo[39m: [32mResponse Sent: [200] Repayment recorded successfully[39m
+2026-03-13 02:52:39:5239 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 02:52:42:5242 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:52:42:5242 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:52:42:5242 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:56:14:5614 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 02:56:14:5614 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 02:56:14:5614 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 02:56:14:5614 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 02:56:36:5636 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
