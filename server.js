@@ -12,7 +12,7 @@ const { PORT } = configuration;
   try {
     await connectDB();
     const isDev = process.env.NODE_ENV !== 'production';
-    await sequelize.sync({ alter: isDev }); 
+    // await sequelize.sync({ alter: isDev }); 
     console.log(isDev ? '⚠️ Models synced with alter: true (Dev Mode)' : '✅ Models synced safely (Prod Mode)');
     // Start server
     if(isDev)

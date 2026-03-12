@@ -1,11 +1,12 @@
 import { StatusCodes } from "http-status-codes";
-import { Account, Category, Transaction } from "../../models/index.js";
+import { Account, Category, Transaction,Currency } from "../../models/index.js";
 import {sequelize} from "../../config/db.js"
 import asyncHandler from "../../utils/AsyncHelper/Async.js";
 import BaseController from "../../bases/BaseController.js";
 import sendResponse from "../../utils/ResponseHelpers/sendResponse.js";
 import { checkBudgetThreshold } from "../../utils/FinanceHelpers/BudgetChecker.js"; // Ensure this helper exists
 import { BadRequestError, NotFoundError } from "../../utils/ErrorHelpers/Errors.js";
+
 
 const TransactionController = new BaseController(Transaction);
 
@@ -81,7 +82,11 @@ export const getUserTransactions = asyncHandler(async (req, res) => {
             // ✅ FIX: Use 'sourceAccount' or 'destinationAccount' instead of 'Account'
             include: [
                 { model: Category, as: 'category' },
-                { model: Account, as: 'sourceAccount' }
+                { 
+                    model: Account, 
+                    as: 'sourceAccount',
+                    include: [{ model: Currency, as: 'currency' }] // ✅ Added Currency nested include
+                }
             ] 
         }
     );

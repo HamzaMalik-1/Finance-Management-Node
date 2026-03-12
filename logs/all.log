@@ -3393,3 +3393,73 @@
 2026-03-12 07:13:32:1332 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
 2026-03-12 07:17:20:1720 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
 2026-03-12 07:17:29:1729 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-12 07:31:50:3150 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-12 07:31:50:3150 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-12 07:31:50:3150 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-12 07:36:17:3617 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-12 07:38:30:3830 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-12 07:38:30:3830 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-12 07:38:30:3830 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-12 07:38:30:3830 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-12 07:38:30:3830 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-12 07:38:30:3830 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-12 07:38:31:3831 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-12 07:38:32:3832 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 00:27:15:2715 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-03-13 00:27:15:2715 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 00:27:41:2741 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-03-13 00:27:41:2741 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 00:30:21:3021 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 00:30:22:3022 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 00:30:24:3024 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 00:30:27:3027 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 00:30:28:3028 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 00:30:28:3028 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 00:30:29:3029 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-13 00:30:31:3031 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 00:30:34:3034 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-13 00:30:35:3035 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 00:30:45:3045 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:33:04:334 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 00:33:04:334 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 00:33:04:334 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:33:08:338 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 00:33:08:338 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:33:09:339 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 00:35:47:3547 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:35:52:3552 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:35:54:3554 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 00:35:54:3554 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 00:37:43:3743 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:37:56:3756 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:37:59:3759 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 00:37:59:3759 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 00:39:13:3913 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 00:39:13:3913 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 00:39:17:3917 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-13 00:40:17:4017 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-03-13 00:40:17:4017 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:41:47:4147 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-13 00:55:32:5532 [31merror[39m: [31mReferenceError: Currency is not defined [39m
+[31mStack: ReferenceError: Currency is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/transactionController.js:87:40[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
+2026-03-13 00:55:35:5535 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 00:55:35:5535 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 00:56:02:562 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 00:56:02:562 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 00:56:02:562 [32minfo[39m: [32mResponse Sent: [200] category.find[39m

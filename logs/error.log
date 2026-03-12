@@ -1768,3 +1768,23 @@
 [31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
 [31m    at async Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
 [31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/dashboardController.js:45:29[39m
+2026-03-13 00:27:15:2715 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 00:27:41:2741 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 00:55:32:5532 [31merror[39m: [31mReferenceError: Currency is not defined [39m
+[31mStack: ReferenceError: Currency is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/transactionController.js:87:40[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/utils/AsyncHelper/Async.js:3:25[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at next (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:157:13)[39m
+[31m    at Route.dispatch (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\route.js:117:3)[39m
+[31m    at handle (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:435:11)[39m
+[31m    at Layer.handleRequest (E:\Self Project\Finance-Management-System\node-server\node_modules\router\lib\layer.js:152:17)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:295:15[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:600:14)[39m
+[31m    at param (E:\Self Project\Finance-Management-System\node-server\node_modules\router\index.js:610:14)[39m
