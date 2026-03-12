@@ -1,7 +1,10 @@
-import express from 'express'
+import express from 'express';
 import { getDashboardSummary } from '../../controllers/v1/dashboardController.js';
-const router =express.Router()
+import { protect } from '../../middlewares/authMiddleware.js'; // Assuming you have this
 
-router.get('/summary/:userId', getDashboardSummary);
+const router = express.Router();
 
-export default router
+// ✅ Intelligence is private data; always protect this route
+router.get('/summary/:userId', protect, getDashboardSummary);
+
+export default router;

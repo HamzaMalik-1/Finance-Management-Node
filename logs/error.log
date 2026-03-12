@@ -1748,3 +1748,23 @@
 [31mStack: UnauthorizedError: error.unauthorized[39m
 [31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
 [31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-12 07:06:45:645 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-12 07:07:30:730 [31merror[39m: [31mSequelizeDatabaseError: column "transactionDate" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/dashboardController.js:45:29[39m
+2026-03-12 07:10:23:1023 [31merror[39m: [31mSequelizeDatabaseError: column "transactionDate" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/dashboardController.js:45:29[39m

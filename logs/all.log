@@ -3282,3 +3282,114 @@
 2026-03-11 13:10:59:1059 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
 2026-03-11 13:11:00:110 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
 2026-03-11 13:11:26:1126 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-12 05:58:39:5839 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-12 05:58:41:5841 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-12 05:58:42:5842 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-12 05:58:47:5847 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:02:06:26 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:02:13:213 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:02:50:250 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:05:20:520 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:05:33:533 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:05:41:541 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:07:42:742 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:08:02:82 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:08:15:815 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-12 06:08:15:815 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-12 06:08:15:815 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-12 06:09:21:921 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:09:30:930 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:09:32:932 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:09:36:936 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:10:01:101 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:10:14:1014 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:10:33:1033 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:10:58:1058 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:11:02:112 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:11:03:113 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:11:05:115 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:12:42:1242 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:13:39:1339 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-12 06:13:39:1339 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-12 06:13:39:1339 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-12 06:13:39:1339 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-12 06:13:39:1339 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-12 06:13:39:1339 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-12 06:13:40:1340 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-12 06:17:33:1733 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-12 06:17:33:1733 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-12 06:17:41:1741 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-12 06:17:41:1741 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-12 06:17:41:1741 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-12 06:17:41:1741 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-12 06:18:49:1849 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:18:52:1852 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:19:06:196 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:19:15:1915 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:19:39:1939 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:19:56:1956 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:24:59:2459 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-03-12 06:24:59:2459 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:29:22:2922 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:43:31:4331 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:43:35:4335 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:43:56:4356 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:45:25:4525 [32minfo[39m: [32mResponse Sent: [201] category.created[39m
+2026-03-12 06:45:26:4526 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:45:32:4532 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:47:37:4737 [32minfo[39m: [32mResponse Sent: [200] category.updated[39m
+2026-03-12 06:47:37:4737 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:47:43:4743 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-03-12 06:47:43:4743 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:47:48:4748 [32minfo[39m: [32mResponse Sent: [200] category.deleted[39m
+2026-03-12 06:47:48:4748 [32minfo[39m: [32mResponse Sent: [200] category.tree_found[39m
+2026-03-12 06:48:21:4821 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-12 06:48:37:4837 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-12 06:48:37:4837 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-12 06:48:37:4837 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-12 06:48:44:4844 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-12 06:48:44:4844 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-12 06:49:01:491 [32minfo[39m: [32mResponse Sent: [201] Transaction recorded successfully[39m
+2026-03-12 06:49:01:491 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-12 06:49:06:496 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-12 06:49:08:498 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-12 06:49:08:498 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-12 06:49:08:498 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-12 06:49:33:4933 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-12 06:50:27:5027 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-12 06:53:39:5339 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-12 06:53:39:5339 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-12 06:56:02:562 [32minfo[39m: [32mResponse Sent: [200] Dashboard data fetched[39m
+2026-03-12 07:00:15:015 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-12 07:00:15:015 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-12 07:00:15:015 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-12 07:00:16:016 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-12 07:00:33:033 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-03-12 07:00:33:033 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-12 07:00:33:033 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-12 07:06:45:645 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-03-12 07:06:45:645 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-12 07:07:01:71 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-12 07:07:06:76 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-12 07:07:30:730 [31merror[39m: [31mSequelizeDatabaseError: column "transactionDate" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/dashboardController.js:45:29[39m
+2026-03-12 07:10:23:1023 [31merror[39m: [31mSequelizeDatabaseError: column "transactionDate" does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async Transaction.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/dashboardController.js:45:29[39m
+2026-03-12 07:13:32:1332 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-12 07:17:20:1720 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-12 07:17:29:1729 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m

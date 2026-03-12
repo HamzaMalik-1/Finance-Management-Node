@@ -32,7 +32,7 @@ export default (sequelize) => {
         allowNull: false,
       },
       description: { type: DataTypes.TEXT },
-      transactionDate: { type: DataTypes.DATE, defaultValue: DataTypes.NOW },
+      transactionDate: { type: DataTypes.DATE, defaultValue: DataTypes.NOW ,field: 'transaction_date'},
       toAccountId: {
         type: DataTypes.UUID,
         allowNull: true,
