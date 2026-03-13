@@ -3,7 +3,8 @@ import {
     createAccount, 
     getUserAccounts, 
     updateAccount, 
-    deleteAccount 
+    deleteAccount, 
+    getAccountDetails
 } from '../../controllers/v1/accountController.js';
 
 const router = express.Router();
@@ -12,5 +13,5 @@ router.post("/", createAccount);
 router.get("/user/:userId", getUserAccounts);
 router.put("/:id", updateAccount);
 router.delete("/:id", deleteAccount);
-
+router.get("/:id", getAccountDetails);
 export default router;

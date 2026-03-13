@@ -3710,3 +3710,129 @@
 2026-03-13 02:56:14:5614 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
 2026-03-13 02:56:14:5614 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
 2026-03-13 02:56:36:5636 [32minfo[39m: [32mResponse Sent: [200] debt.details_fetched[39m
+2026-03-13 03:05:10:510 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 03:05:10:510 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 03:05:10:510 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 03:05:10:510 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 05:59:45:5945 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 05:59:45:5945 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 05:59:45:5945 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 05:59:45:5945 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:04:29:429 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 06:04:29:429 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 06:04:30:430 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 06:04:30:430 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:05:01:51 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 06:05:02:52 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 06:05:02:52 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:05:02:52 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 06:07:04:74 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 06:07:04:74 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 06:07:04:74 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 06:07:04:74 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:08:13:813 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 06:08:13:813 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:08:14:814 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 06:08:15:815 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 06:08:44:844 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-03-13 06:08:44:844 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 06:08:45:845 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 06:13:05:135 [32minfo[39m: [32mResponse Sent: [200] contacts.fetched_successfully[39m
+2026-03-13 06:13:05:135 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 06:13:05:135 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:13:05:135 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 06:13:29:1329 [32minfo[39m: [32mResponse Sent: [201] debt.created_success[39m
+2026-03-13 06:13:29:1329 [32minfo[39m: [32mResponse Sent: [200] debt.fetched_success[39m
+2026-03-13 06:13:30:1330 [32minfo[39m: [32mResponse Sent: [200] debt.summary_success[39m
+2026-03-13 06:15:21:1521 [33mwarn[39m: [33mUnauthorized: Invalid token or session expired.[39m
+2026-03-13 06:15:21:1521 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:15:35:1535 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 06:15:36:1536 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 06:15:37:1537 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 06:18:47:1847 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 06:18:48:1848 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 06:18:49:1849 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 06:20:22:2022 [31merror[39m: [31mSequelizeDatabaseError: column Role.display_name does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async UserRole.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async UserRole.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:223:26[39m
+2026-03-13 06:20:29:2029 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-03-13 06:20:29:2029 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:20:31:2031 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-03-13 06:20:31:2031 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:20:45:2045 [33mwarn[39m: [33mUnauthorized: error.unauthorized[39m
+2026-03-13 06:20:45:2045 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:20:50:2050 [31merror[39m: [31mSequelizeDatabaseError: column Role.display_name does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async UserRole.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async UserRole.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:223:26[39m
+2026-03-13 06:24:31:2431 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 06:24:33:2433 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 06:24:34:2434 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 06:26:47:2647 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 06:27:49:2749 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 06:27:49:2749 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:27:49:2749 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 06:28:44:2844 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 06:29:12:2912 [32minfo[39m: [32mResponse Sent: [200] Profile fetched successfully[39m
+2026-03-13 06:30:26:3026 [32minfo[39m: [32mResponse Sent: [200] User settings fetched[39m
+2026-03-13 06:30:43:3043 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:32:09:329 [32minfo[39m: [32mResponse Sent: [200] Transactions fetched successfully[39m
+2026-03-13 06:40:17:4017 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 06:40:18:4018 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 06:40:19:4019 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 06:41:10:4110 [32minfo[39m: [32mResponse Sent: [200] Login Successfully[39m
+2026-03-13 06:41:11:4111 [32minfo[39m: [32mResponse Sent: [200] Registration status fetched[39m
+2026-03-13 06:41:12:4112 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 06:41:14:4114 [32minfo[39m: [32mResponse Sent: [200] category.find[39m
+2026-03-13 06:41:14:4114 [32minfo[39m: [32mResponse Sent: [200] Budgets fetched successfully[39m
+2026-03-13 06:41:14:4114 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 06:41:18:4118 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:41:18:4118 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 06:45:41:4541 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:45:42:4542 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 06:45:43:4543 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 06:49:56:4956 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m
+2026-03-13 06:50:19:5019 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:50:19:5019 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 06:50:19:5019 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 06:53:20:5320 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:55:34:5534 [31merror[39m: [31mReferenceError: Transaction is not defined [39m
+[31mStack: ReferenceError: Transaction is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:124:26[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:56:01:561 [32minfo[39m: [32mResponse Sent: [200] Account details fetched[39m
+2026-03-13 06:56:19:5619 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 06:56:19:5619 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 06:56:19:5619 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 07:01:17:117 [32minfo[39m: [32mResponse Sent: [200] Account details fetched[39m
+2026-03-13 07:02:04:24 [32minfo[39m: [32mResponse Sent: [200] Account details fetched[39m
+2026-03-13 07:04:19:419 [32minfo[39m: [32mResponse Sent: [200] Account details fetched[39m
+2026-03-13 07:05:34:534 [32minfo[39m: [32mResponse Sent: [200] Account details fetched[39m
+2026-03-13 07:08:31:831 [32minfo[39m: [32mResponse Sent: [200] Notifications fetched[39m
+2026-03-13 07:08:36:836 [32minfo[39m: [32mResponse Sent: [200] Accounts fetched successfully[39m
+2026-03-13 07:08:36:836 [32minfo[39m: [32mResponse Sent: [200] Account types fetched successfully[39m
+2026-03-13 07:08:36:836 [32minfo[39m: [32mResponse Sent: [200] Currencies fetched successfully[39m
+2026-03-13 07:08:42:842 [32minfo[39m: [32mResponse Sent: [200] Intelligence data synchronized[39m

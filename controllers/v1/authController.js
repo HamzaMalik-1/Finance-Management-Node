@@ -2,7 +2,7 @@ import { StatusCodes } from "http-status-codes";
 import { Op } from "sequelize";
 import asyncHandler from "../../utils/AsyncHelper/Async.js";
 import BaseController from "../../bases/BaseController.js";
-import { Role, User ,UserRole} from "../../models/index.js";
+import { Role, User, UserRole } from "../../models/index.js";
 import sendResponse from "../../utils/ResponseHelpers/sendResponse.js";
 import { sequelize, supabase } from "../../config/db.js"; // Ensure you have this config
 import {
@@ -106,16 +106,19 @@ export const signup = asyncHandler(async (req, res) => {
   try {
     if (userId) {
       // ✅ This will now work without the 'User' record because constraints are disabled
-      await UserRole.create({ 
-        userId: userId, 
-        roleId: 2 // Default User role
+      await UserRole.create({
+        userId: userId,
+        roleId: 2, // Default User role
       });
     }
   } catch (dbError) {
     // 🧹 Cleanup: If local assignment fails, delete the user from Supabase
     // so they can try signing up again later.
     await supabase.auth.admin.deleteUser(userId);
-    throw new InternalServerError("Role assignment failed. Signup rolled back.", dbError);
+    throw new InternalServerError(
+      "Role assignment failed. Signup rolled back.",
+      dbError,
+    );
   }
 
   return sendResponse(
@@ -222,22 +225,30 @@ export const login = asyncHandler(async (req, res) => {
     // ✅ Apply the findOne logic here
     const userRoleData = await UserRole.findOne({
       where: { userId: data.user.id },
-      include: [{
-        model: Role,
-        attributes: ['name'],
-      }]
+      include: [
+        {
+          model: Role,
+          attributes: ["name"],
+        },
+      ],
     });
-
+    const userData = await User.findOne({
+      where: { id: data.user.id },
+    });
     // Extract the name safely (fallback to 'User' if not found)
     const roleName = userRoleData?.Role?.name || "User";
 
+    console.log("userData",userData)
+    console.log("userRoleData",userRoleData)
+
     const cleanUser = {
       id: data.user.id,
-      email: data.user.email,
+      email: data?.user?.email,
+      display_name: userData?.displayName,
       username: data.user.user_metadata?.username || null,
       last_login: data.user.last_sign_in_at,
       token: data.session.access_token,
-      role: roleName // ✅ Now returns a single string like "Admin"
+      role: roleName, // ✅ Now returns a single string like "Admin"
     };
 
     return sendResponse(res, StatusCodes.OK, "Login Successfully", cleanUser);

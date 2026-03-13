@@ -6,6 +6,7 @@ import { StatusCodes } from "http-status-codes";
 import { sequelize } from "../../config/db.js";
 import { BadRequestError } from "../../utils/ErrorHelpers/Errors.js"; // Ensure this is imported
 import { Op } from "sequelize";
+import { sendDebtNotification } from '../../services/EmailService.js';
 
 const DebtController = new BaseController(Debt);
 const ContactController = new BaseController(Contact);
@@ -66,7 +67,6 @@ export const addRepayment = asyncHandler(async (req, res) => {
     return sendResponse(res, StatusCodes.OK, "Repayment recorded successfully", result);
 });
 // controllers/v1/deptController.js
-
 export const createDebt = asyncHandler(async (req, res) => {
     DebtController.bodyExist(req.body);
     
@@ -76,44 +76,58 @@ export const createDebt = asyncHandler(async (req, res) => {
 
     DebtController.requireFields(req.body, ["userId", "accountId", "amount", "type"]);
 
-    const { userId, contactId, contactName, phoneNumber, amount } = req.body;
+    const { userId, contactId, contactName, contactEmail, phoneNumber, amount, type } = req.body;
 
     const newDebt = await sequelize.transaction(async (t) => {
         let finalContactId = contactId;
+        let recipientEmail = contactEmail; // Default to provided email
 
-        // Create contact if it doesn't exist
         if (!finalContactId) {
+            // CASE 1: New Contact
             const newContact = await ContactController.create({
                 userId,
                 name: contactName,
+                email: contactEmail || null,
                 phoneNumber: phoneNumber || null,
             }, { transaction: t });
             
             finalContactId = newContact.id;
+        } else {
+            // CASE 2: Existing Contact - Fetch email if not provided in body
+            if (!recipientEmail) {
+                const existingContact = await Contact.findByPk(finalContactId, { transaction: t });
+                recipientEmail = existingContact?.email;
+            }
         }
 
-        const debtData = {
+        const createdDebt = await Debt.create({
             ...req.body,
             contactId: finalContactId,
             amount: parseFloat(amount),
             remainingAmount: parseFloat(amount)
-        };
-
-        // We use the raw model create here to ensure hooks trigger predictably
-        const createdDebt = await Debt.create(debtData, { transaction: t });
+        }, { transaction: t });
         
-        return await Debt.findByPk(createdDebt.id, {
+        const fullDebtData = await Debt.findByPk(createdDebt.id, {
             include: [
                 { model: Contact, as: 'contactPerson' },
                 { model: Account, as: 'account' }
             ],
             transaction: t
         });
+
+        // ✅ Step 3: Trigger Email (Non-blocking or after transaction)
+        if (recipientEmail) {
+            // We pass details to the email service
+            sendDebtNotification(recipientEmail, fullDebtData).catch(err => 
+                console.error("Email failed to send:", err)
+            );
+        }
+
+        return fullDebtData;
     });
 
     return sendResponse(res, StatusCodes.CREATED, "debt.created_success", newDebt);
 });
-
 export const getUserDebts = asyncHandler(async (req, res) => {
     const { userId } = req.params;
 

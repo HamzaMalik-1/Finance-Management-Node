@@ -1823,3 +1823,41 @@
 [31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
 [31m    at async UserSettings.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
 [31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/deptController.js:154:24[39m
+2026-03-13 06:15:21:1521 [31merror[39m: [31mUnauthorizedError: Invalid token or session expired. [39m
+[31mStack: UnauthorizedError: Invalid token or session expired.[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/middlewares/authMiddleware.js:27:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:20:22:2022 [31merror[39m: [31mSequelizeDatabaseError: column Role.display_name does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async UserRole.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async UserRole.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:223:26[39m
+2026-03-13 06:20:29:2029 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:20:31:2031 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:20:45:2045 [31merror[39m: [31mUnauthorizedError: error.unauthorized [39m
+[31mStack: UnauthorizedError: error.unauthorized[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:218:11[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+2026-03-13 06:20:50:2050 [31merror[39m: [31mSequelizeDatabaseError: column Role.display_name does not exist [39m
+[31mStack: Error[39m
+[31m    at Query.run (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)[39m
+[31m    at E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\sequelize.js:315:28[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async PostgresQueryInterface.select (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)[39m
+[31m    at async UserRole.findAll (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1140:21)[39m
+[31m    at async UserRole.findOne (E:\Self Project\Finance-Management-System\node-server\node_modules\sequelize\lib\model.js:1240:12)[39m
+[31m    at async file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/authController.js:223:26[39m
+2026-03-13 06:55:34:5534 [31merror[39m: [31mReferenceError: Transaction is not defined [39m
+[31mStack: ReferenceError: Transaction is not defined[39m
+[31m    at file:///E:/Self%20Project/Finance-Management-System/node-server/controllers/v1/accountController.js:124:26[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
